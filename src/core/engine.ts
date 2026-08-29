@@ -1,7 +1,7 @@
 import type { LogEvent, Severity, SourceKind } from './types.js';
 import type { Detect, MitreRef, Rule } from './rules/types.js';
 import { ms, where } from './rules/dsl.js';
-import { geoLookup, haversineKm, type GeoResolver } from './geo.js';
+import { geoLookup, haversineKm, isPrivate, type GeoResolver } from './geo.js';
 
 export interface Match {
   ruleId: string;
@@ -171,13 +171,19 @@ function runSequence(rule: Rule, d: Extract<Detect, { type: 'sequence' }>, event
       let doneAt = -1;
 
       for (; j < bucket.length && bucket[j].ts - anchor <= win; j++) {
-        if (!steps[stepIdx].pred(bucket[j])) continue;
-        evidence.push(bucket[j]);
+        const e = bucket[j];
+        // Only move on once the current step is satisfied *and* this event is
+        // what the next step is waiting for. Otherwise keep piling onto the
+        // current step, so the alert carries all 14 failures rather than the
+        // 8 that happened to trip it.
+        while (stepIdx + 1 < steps.length && got >= steps[stepIdx].need && steps[stepIdx + 1].pred(e)) {
+          stepIdx++;
+          got = 0;
+        }
+        if (!steps[stepIdx].pred(e)) continue;
+        evidence.push(e);
         got++;
-        if (got < steps[stepIdx].need) continue;
-        stepIdx++;
-        got = 0;
-        if (stepIdx === steps.length) {
+        if (stepIdx === steps.length - 1 && got >= steps[stepIdx].need) {
           doneAt = j;
           break;
         }
@@ -219,7 +225,12 @@ function runGeoVelocity(
   const win = ms(d.within);
   const out: Match[] = [];
 
-  for (const [key, bucket] of group(events.filter(pred), d.groupBy)) {
+  // RFC1918 addresses geolocate to wherever the estate is, which would make
+  // "logged in from the office, then from Singapore" look like teleportation
+  // every single morning. Only public addresses establish a location.
+  const candidates = events.filter((e) => pred(e) && e.srcIp && !isPrivate(e.srcIp));
+
+  for (const [key, bucket] of group(candidates, d.groupBy)) {
     for (let i = 1; i < bucket.length; i++) {
       const prev = bucket[i - 1];
       const cur = bucket[i];
