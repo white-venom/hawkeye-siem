@@ -58,17 +58,26 @@ describe('ssh / auth.log', () => {
     expect(denied).toMatchObject({ action: 'sudo', status: 'failure', user: 'mallory' });
   });
 
+  it('records session open/close, which is how you tie a login to what followed', () => {
+    const { events } = parseSsh(
+      'Mar 12 08:14:23 web-01 sshd[1]: pam_unix(sshd:session): session opened for user deploy by (uid=0)',
+      Y,
+    );
+    expect(events[0]).toMatchObject({ action: 'session_open', status: 'info', user: 'deploy' });
+  });
+
   it('reports lines it cannot use instead of inventing events', () => {
     const r = parseSsh(
       [
         'Mar 12 08:14:22 web-01 sshd[1]: Failed password for root from 203.0.113.45 port 1 ssh2',
-        'Mar 12 08:14:23 web-01 sshd[1]: pam_unix(sshd:session): session opened for user deploy by (uid=0)',
+        'Mar 12 08:14:23 web-01 CRON[9]: pam_unix(cron:session): session opened for user root by (uid=0)',
+        'Mar 12 08:14:24 web-01 sshd[1]: Received signal 15; terminating.',
         'this is not a log line',
       ].join('\n'),
       Y,
     );
     expect(r.events).toHaveLength(1);
-    expect(r.skipped.map((s) => s.line)).toEqual([2, 3]);
+    expect(r.skipped.map((s) => s.line)).toEqual([2, 3, 4]);
   });
 
   it('round-trips: re-parsing an event raw gives back the same event', () => {
