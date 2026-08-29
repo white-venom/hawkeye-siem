@@ -1,0 +1,139 @@
+{"@timestamp":"2025-03-12T06:00:00Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"j.harper","ip":"10.10.5.48","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T06:03:37Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"svc_backup","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T06:06:17Z","channel":"Security","event_id":4688,"computer":"FS-01","target_user":"j.harper","process":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T06:07:46Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"m.singh","ip":"10.10.5.32","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T06:10:35Z","channel":"Security","event_id":4634,"computer":"FS-01","target_user":"svc_backup","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T06:14:28Z","channel":"Security","event_id":4672,"computer":"FS-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T06:16:57Z","channel":"Security","event_id":4688,"computer":"WEB-01","target_user":"a.novak","process":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T06:19:10Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"m.singh","ip":"10.10.5.65","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T06:21:22Z","channel":"Security","event_id":4688,"computer":"DC-01","target_user":"a.novak","process":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T06:23:04Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"m.singh","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T06:26:05Z","channel":"Security","event_id":4672,"computer":"WEB-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T06:29:50Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"m.singh","ip":"10.10.5.82","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T06:33:27Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"m.singh","ip":"10.10.5.23","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T06:37:28Z","channel":"Security","event_id":4688,"computer":"FS-01","target_user":"a.novak","process":"C:\\Windows\\System32\\cmd.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T06:40:57Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"r.okafor","ip":"10.10.5.58","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T06:44:29Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"r.okafor","ip":"10.10.5.41","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T06:46:05Z","channel":"Security","event_id":4688,"computer":"WEB-01","target_user":"a.novak","process":"C:\\Program Files\\Git\\bin\\git.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T06:49:55Z","channel":"Security","event_id":4672,"computer":"DC-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T06:53:45Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"svc_backup","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T06:55:31Z","channel":"Security","event_id":4672,"computer":"WEB-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T06:57:36Z","channel":"Security","event_id":4688,"computer":"FS-01","target_user":"j.harper","process":"C:\\Windows\\System32\\cmd.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T07:00:11Z","channel":"Security","event_id":4625,"computer":"WEB-01","target_user":"m.singh","ip":"10.10.5.85","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T07:01:42Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"a.novak","ip":"10.10.5.73","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:03:51Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"m.singh","ip":"10.10.5.87","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:07:05Z","channel":"Security","event_id":4625,"computer":"WEB-01","target_user":"a.novak","ip":"10.10.5.81","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T07:10:49Z","channel":"Security","event_id":4625,"computer":"WEB-01","target_user":"j.harper","ip":"10.10.5.34","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T07:13:06Z","channel":"Security","event_id":4688,"computer":"FS-01","target_user":"svc_backup","process":"C:\\Program Files\\Git\\bin\\git.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T07:14:28Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"j.harper","ip":"10.10.5.74","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:16:58Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"j.harper","ip":"10.10.5.76","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:20:21Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"a.novak","ip":"10.10.5.76","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:21:54Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"r.okafor","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T07:25:28Z","channel":"Security","event_id":4672,"computer":"DC-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T07:29:02Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"a.novak","ip":"10.10.5.38","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:32:15Z","channel":"Security","event_id":4688,"computer":"DC-01","target_user":"r.okafor","process":"C:\\Program Files\\Git\\bin\\git.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T07:34:07Z","channel":"Security","event_id":4625,"computer":"WEB-01","target_user":"a.novak","ip":"10.10.5.79","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T07:36:06Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"j.harper","ip":"10.10.5.70","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:38:49Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"j.harper","ip":"10.10.5.19","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:40:48Z","channel":"Security","event_id":4625,"computer":"FS-01","target_user":"r.okafor","ip":"10.10.5.50","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T07:43:01Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"m.singh","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T07:46:43Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"r.okafor","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T07:49:21Z","channel":"Security","event_id":4634,"computer":"FS-01","target_user":"m.singh","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T07:51:04Z","channel":"Security","event_id":4672,"computer":"WEB-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T07:52:15Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"a.novak","ip":"10.10.5.13","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:55:33Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"m.singh","ip":"10.10.5.33","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T07:58:24Z","channel":"Security","event_id":4672,"computer":"FS-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T08:01:53Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"r.okafor","ip":"10.10.5.16","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:04:44Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"svc_backup","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T08:06:13Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"m.singh","ip":"10.10.5.27","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:08:46Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"j.harper","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T08:10:03Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"svc_backup","ip":"10.10.5.80","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:13:49Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"a.novak","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T08:15:40Z","channel":"Security","event_id":4625,"computer":"DC-01","target_user":"m.singh","ip":"10.10.5.22","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T08:17:42Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"j.harper","ip":"10.10.5.12","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:19:17Z","channel":"Security","event_id":4634,"computer":"WEB-01","target_user":"svc_backup","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T08:22:53Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"a.novak","ip":"10.10.5.19","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:24:46Z","channel":"Security","event_id":4672,"computer":"DC-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T08:28:28Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"m.singh","ip":"10.10.5.20","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:30:21Z","channel":"Security","event_id":4688,"computer":"WEB-01","target_user":"j.harper","process":"C:\\Program Files\\Git\\bin\\git.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T08:33:17Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"m.singh","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T08:34:53Z","channel":"Security","event_id":4625,"computer":"FS-01","target_user":"svc_backup","ip":"10.10.5.43","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T08:37:33Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"svc_backup","ip":"10.10.5.80","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:39:35Z","channel":"Security","event_id":4672,"computer":"DC-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T08:41:03Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"svc_backup","ip":"10.10.5.17","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:45:02Z","channel":"Security","event_id":4688,"computer":"DC-01","target_user":"m.singh","process":"C:\\Program Files\\Git\\bin\\git.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T08:47:59Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"j.harper","ip":"10.10.5.40","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:51:28Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"m.singh","ip":"10.10.5.37","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:53:17Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"a.novak","ip":"10.10.5.65","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:54:54Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"a.novak","ip":"10.10.5.89","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T08:56:57Z","channel":"Security","event_id":4672,"computer":"DC-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T08:59:10Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"a.novak","ip":"10.10.5.77","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:00:56Z","channel":"Security","event_id":4672,"computer":"WEB-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T09:02:23Z","channel":"Security","event_id":4688,"computer":"DC-01","target_user":"a.novak","process":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T09:05:21Z","channel":"Security","event_id":4672,"computer":"FS-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T09:07:21Z","channel":"Security","event_id":4688,"computer":"DC-01","target_user":"r.okafor","process":"C:\\Windows\\System32\\cmd.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T09:11:26Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"r.okafor","ip":"10.10.5.66","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:13:41Z","channel":"Security","event_id":4625,"computer":"WEB-01","target_user":"r.okafor","ip":"10.10.5.32","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T09:16:24Z","channel":"Security","event_id":4688,"computer":"DC-01","target_user":"svc_backup","process":"C:\\Windows\\System32\\cmd.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T09:19:19Z","channel":"Security","event_id":4634,"computer":"WEB-01","target_user":"r.okafor","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T09:20:42Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"a.novak","ip":"10.10.5.44","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:22:29Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"j.harper","ip":"10.10.5.66","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:26:09Z","channel":"Security","event_id":4672,"computer":"WEB-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T09:29:18Z","channel":"Security","event_id":4634,"computer":"WEB-01","target_user":"svc_backup","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T09:32:10Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"a.novak","ip":"10.10.5.73","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:33:31Z","channel":"Security","event_id":4672,"computer":"DC-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T09:36:12Z","channel":"Security","event_id":4720,"computer":"DC-01","subject_user":"a.novak","target_user":"helpdesk_svc","message":"A user account was created."}
+{"@timestamp":"2025-03-12T09:36:45Z","channel":"Security","event_id":4625,"computer":"FS-01","target_user":"r.okafor","ip":"10.10.5.53","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T09:37:01Z","channel":"Security","event_id":4728,"computer":"DC-01","subject_user":"a.novak","target_user":"helpdesk_svc","group":"Domain Admins","message":"A member was added to a security-enabled global group."}
+{"@timestamp":"2025-03-12T09:38:01Z","channel":"Security","event_id":4625,"computer":"DC-01","target_user":"a.novak","ip":"10.10.5.55","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T09:41:01Z","channel":"Security","event_id":4672,"computer":"FS-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T09:42:52Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"m.singh","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T09:44:42Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"m.singh","ip":"10.10.5.72","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:47:25Z","channel":"Security","event_id":4688,"computer":"WEB-01","target_user":"m.singh","process":"C:\\Windows\\System32\\cmd.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T09:51:03Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"j.harper","ip":"10.10.5.83","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:53:08Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"svc_backup","ip":"10.10.5.34","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:54:40Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"svc_backup","ip":"10.10.5.43","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T09:57:11Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"svc_backup","ip":"10.10.5.57","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:00:42Z","channel":"Security","event_id":4634,"computer":"FS-01","target_user":"a.novak","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T10:03:05Z","channel":"Security","event_id":4625,"computer":"WEB-01","target_user":"svc_backup","ip":"10.10.5.71","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T10:04:46Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"j.harper","ip":"10.10.5.78","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:07:27Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"svc_backup","ip":"10.10.5.82","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:09:46Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"r.okafor","ip":"10.10.5.16","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:12:14Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"r.okafor","ip":"10.10.5.45","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:15:59Z","channel":"Security","event_id":4688,"computer":"DC-01","target_user":"a.novak","process":"C:\\Program Files\\Git\\bin\\git.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T10:18:00Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"a.novak","ip":"10.10.5.89","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:20:36Z","channel":"Security","event_id":4688,"computer":"WEB-01","target_user":"m.singh","process":"C:\\Program Files\\Git\\bin\\git.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T10:23:32Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"svc_backup","ip":"10.10.5.81","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:24:42Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"m.singh","ip":"10.10.5.13","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:28:03Z","channel":"Security","event_id":4688,"computer":"FS-01","target_user":"a.novak","process":"C:\\Windows\\System32\\cmd.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T10:32:13Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"svc_backup","ip":"10.10.5.73","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:33:45Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"r.okafor","ip":"10.10.5.60","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:37:41Z","channel":"Security","event_id":4625,"computer":"FS-01","target_user":"svc_backup","ip":"10.10.5.50","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T10:39:16Z","channel":"Security","event_id":4634,"computer":"WEB-01","target_user":"r.okafor","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T10:42:41Z","channel":"Security","event_id":4634,"computer":"FS-01","target_user":"svc_backup","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T10:44:32Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"r.okafor","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T10:47:59Z","channel":"Security","event_id":4672,"computer":"WEB-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T10:51:06Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"j.harper","ip":"10.10.5.23","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:53:57Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"r.okafor","ip":"10.10.5.25","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T10:56:05Z","channel":"Security","event_id":4625,"computer":"WEB-01","target_user":"r.okafor","ip":"10.10.5.69","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T10:57:20Z","channel":"Security","event_id":4672,"computer":"WEB-01","target_user":"Administrator","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T11:01:20Z","channel":"Security","event_id":4634,"computer":"DC-01","target_user":"m.singh","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T11:04:02Z","channel":"Security","event_id":4688,"computer":"WEB-01","target_user":"r.okafor","process":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T11:08:06Z","channel":"Security","event_id":4688,"computer":"FS-01","target_user":"j.harper","process":"C:\\Windows\\System32\\cmd.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T11:10:32Z","channel":"Security","event_id":4688,"computer":"WEB-01","target_user":"a.novak","process":"C:\\Windows\\System32\\cmd.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T11:12:58Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"j.harper","ip":"10.10.5.15","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T11:16:50Z","channel":"Security","event_id":4634,"computer":"WEB-01","target_user":"a.novak","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T11:19:12Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"svc_backup","ip":"10.10.5.33","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T11:22:49Z","channel":"Security","event_id":4624,"computer":"DC-01","target_user":"j.harper","ip":"10.10.5.22","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T11:26:50Z","channel":"Security","event_id":4624,"computer":"FS-01","target_user":"svc_backup","ip":"10.10.5.39","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T11:30:03Z","channel":"Security","event_id":4625,"computer":"DC-01","target_user":"r.okafor","ip":"10.10.5.42","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T11:31:41Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"j.harper","ip":"10.10.5.48","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T11:35:04Z","channel":"Security","event_id":4634,"computer":"FS-01","target_user":"svc_backup","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T11:37:44Z","channel":"Security","event_id":4688,"computer":"WEB-01","target_user":"svc_backup","process":"C:\\Program Files\\Git\\bin\\git.exe","message":"A new process has been created."}
+{"@timestamp":"2025-03-12T11:39:41Z","channel":"Security","event_id":4634,"computer":"WEB-01","target_user":"j.harper","message":"An account was logged off."}
+{"@timestamp":"2025-03-12T11:43:28Z","channel":"Security","event_id":4672,"computer":"DC-01","target_user":"svc_backup","message":"Special privileges assigned to new logon."}
+{"@timestamp":"2025-03-12T11:46:17Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"a.novak","ip":"10.10.5.27","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T11:50:19Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"svc_backup","ip":"10.10.5.13","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T11:51:41Z","channel":"Security","event_id":4624,"computer":"WEB-01","target_user":"svc_backup","ip":"10.10.5.43","logon_type":3,"message":"An account was successfully logged on."}
+{"@timestamp":"2025-03-12T11:54:45Z","channel":"Security","event_id":4625,"computer":"WEB-01","target_user":"j.harper","ip":"10.10.5.14","logon_type":2,"message":"An account failed to log on."}
+{"@timestamp":"2025-03-12T11:56:39Z","channel":"Security","event_id":4634,"computer":"FS-01","target_user":"j.harper","message":"An account was logged off."}

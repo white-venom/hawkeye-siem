@@ -1,0 +1,662 @@
+[
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:00 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=60765 PROTO=TCP SPT=48936 DPT=21 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 400
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:04 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=1515 PROTO=TCP SPT=55491 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:08 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=35492 PROTO=TCP SPT=44486 DPT=23 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:12 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=52883 PROTO=TCP SPT=41618 DPT=25 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:16 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=53878 PROTO=TCP SPT=41670 DPT=53 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:20 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=58434 PROTO=TCP SPT=45046 DPT=80 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:24 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=3788 PROTO=TCP SPT=56426 DPT=110 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:28 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=57876 PROTO=TCP SPT=52228 DPT=135 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:32 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=35819 PROTO=TCP SPT=48127 DPT=139 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:36 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=45934 PROTO=TCP SPT=40707 DPT=143 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:40 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=2970 PROTO=TCP SPT=58981 DPT=443 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:44 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=43441 PROTO=TCP SPT=52669 DPT=445 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:48 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=19322 PROTO=TCP SPT=54550 DPT=993 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:52 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=63954 PROTO=TCP SPT=53738 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:05:56 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=12630 PROTO=TCP SPT=50960 DPT=1521 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:00 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=16412 PROTO=TCP SPT=42413 DPT=2049 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:04 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=10929 PROTO=TCP SPT=46934 DPT=2375 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:08 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=29050 PROTO=TCP SPT=52916 DPT=3306 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:12 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=40981 PROTO=TCP SPT=50663 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:16 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=49189 PROTO=TCP SPT=47515 DPT=5432 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:20 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=21511 PROTO=TCP SPT=52625 DPT=5900 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:24 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=38720 PROTO=TCP SPT=42600 DPT=5985 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:28 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=5565 PROTO=TCP SPT=57298 DPT=6379 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:32 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=3410 PROTO=TCP SPT=48904 DPT=8080 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:36 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=22090 PROTO=TCP SPT=40879 DPT=8443 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:40 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=46972 PROTO=TCP SPT=47426 DPT=9200 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:44 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=10474 PROTO=TCP SPT=59330 DPT=11211 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:48 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=23598 PROTO=TCP SPT=57700 DPT=27017 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:52 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=39631 PROTO=TCP SPT=51866 DPT=5601 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Reconnaissance",
+  "parser": "firewall",
+  "line": "Mar 12 12:06:56 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=1204 PROTO=TCP SPT=42814 DPT=15672 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "delay": 70
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:11:00 web-01 sshd[21513]: Failed password for root from 77.83.36.19 port 46222 ssh2",
+  "delay": 1100
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:11:11 web-01 sshd[16299]: Failed password for root from 77.83.36.19 port 59623 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:11:22 web-01 sshd[11320]: Failed password for root from 77.83.36.19 port 41624 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:11:33 web-01 sshd[2147]: Failed password for root from 77.83.36.19 port 55503 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:11:44 web-01 sshd[16372]: Failed password for root from 77.83.36.19 port 50233 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:11:55 web-01 sshd[5564]: Failed password for root from 77.83.36.19 port 54324 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:12:06 web-01 sshd[9846]: Failed password for root from 77.83.36.19 port 59145 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:12:17 web-01 sshd[7713]: Failed password for root from 77.83.36.19 port 43809 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:12:28 web-01 sshd[24060]: Failed password for root from 77.83.36.19 port 51542 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:12:39 web-01 sshd[25763]: Failed password for root from 77.83.36.19 port 48722 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:12:50 web-01 sshd[8293]: Failed password for root from 77.83.36.19 port 53287 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:13:01 web-01 sshd[19785]: Failed password for root from 77.83.36.19 port 54654 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:13:12 web-01 sshd[27128]: Failed password for root from 77.83.36.19 port 54522 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:13:23 web-01 sshd[20575]: Failed password for root from 77.83.36.19 port 40387 ssh2",
+  "delay": 110
+ },
+ {
+  "phase": "Credential access",
+  "parser": "ssh",
+  "line": "Mar 12 12:13:34 web-01 sshd[18739]: Accepted password for root from 77.83.36.19 port 44053 ssh2",
+  "delay": 700
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "ssh",
+  "line": "Mar 12 12:16:10 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/cat /etc/shadow",
+  "delay": 1200
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "ssh",
+  "line": "Mar 12 12:16:30 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod u+s /tmp/.b",
+  "delay": 140
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "ssh",
+  "line": "Mar 12 12:16:50 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd -M sys_helper",
+  "delay": 140
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "ssh",
+  "line": "Mar 12 12:17:10 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd -M sys_helper",
+  "delay": 140
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "ssh",
+  "line": "Mar 12 12:17:30 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/cp /bin/bash /tmp/.b",
+  "delay": 140
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:17:05Z\",\"channel\":\"Security\",\"event_id\":4625,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"ip\":\"77.83.36.19\",\"logon_type\":3,\"message\":\"An account failed to log on.\"}",
+  "delay": 200
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:17:27Z\",\"channel\":\"Security\",\"event_id\":4624,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"ip\":\"77.83.36.19\",\"logon_type\":3,\"message\":\"An account was successfully logged on.\"}",
+  "delay": 200
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:17:43Z\",\"channel\":\"Security\",\"event_id\":4672,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"message\":\"Special privileges assigned to new logon.\"}",
+  "delay": 150
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:17:59Z\",\"channel\":\"Security\",\"event_id\":4672,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"message\":\"Special privileges assigned to new logon.\"}",
+  "delay": 150
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:18:15Z\",\"channel\":\"Security\",\"event_id\":4672,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"message\":\"Special privileges assigned to new logon.\"}",
+  "delay": 150
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:18:31Z\",\"channel\":\"Security\",\"event_id\":4672,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"message\":\"Special privileges assigned to new logon.\"}",
+  "delay": 150
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:18:47Z\",\"channel\":\"Security\",\"event_id\":4672,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"message\":\"Special privileges assigned to new logon.\"}",
+  "delay": 150
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:19:03Z\",\"channel\":\"Security\",\"event_id\":4672,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"message\":\"Special privileges assigned to new logon.\"}",
+  "delay": 150
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:19:19Z\",\"channel\":\"Security\",\"event_id\":4672,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"message\":\"Special privileges assigned to new logon.\"}",
+  "delay": 150
+ },
+ {
+  "phase": "Privilege escalation",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:19:35Z\",\"channel\":\"Security\",\"event_id\":4672,\"computer\":\"DC-01\",\"target_user\":\"svc_backup\",\"message\":\"Special privileges assigned to new logon.\"}",
+  "delay": 150
+ },
+ {
+  "phase": "Persistence",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:20:30Z\",\"channel\":\"Security\",\"event_id\":4720,\"computer\":\"DC-01\",\"subject_user\":\"svc_backup\",\"target_user\":\"sys_helper\",\"message\":\"A user account was created.\"}",
+  "delay": 1200
+ },
+ {
+  "phase": "Persistence",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:21:11Z\",\"channel\":\"Security\",\"event_id\":4728,\"computer\":\"DC-01\",\"subject_user\":\"svc_backup\",\"target_user\":\"sys_helper\",\"group\":\"Domain Admins\",\"message\":\"A member was added to a security-enabled global group.\"}",
+  "delay": 300
+ },
+ {
+  "phase": "Persistence",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:21:36Z\",\"channel\":\"Security\",\"event_id\":7045,\"computer\":\"DC-01\",\"target_user\":\"sys_helper\",\"process\":\"C:\\\\Windows\\\\Temp\\\\svcupd.exe\",\"message\":\"A service was installed in the system.\"}",
+  "delay": 300
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:24:00 fw-edge %ASA-6-302014: Teardown TCP connection 835356 for inside:10.10.4.22/56478 to outside:77.83.36.19/443 duration 0:00:34 bytes 4589787 TCP FINs",
+  "delay": 1300
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:24:11 fw-edge %ASA-6-302014: Teardown TCP connection 750979 for inside:10.10.4.22/52582 to outside:77.83.36.19/443 duration 0:00:18 bytes 2829651 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:24:22 fw-edge %ASA-6-302014: Teardown TCP connection 642888 for inside:10.10.4.22/59246 to outside:77.83.36.19/443 duration 0:00:23 bytes 5069625 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:24:33 fw-edge %ASA-6-302014: Teardown TCP connection 341986 for inside:10.10.4.22/58440 to outside:77.83.36.19/443 duration 0:00:37 bytes 4036686 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:24:44 fw-edge %ASA-6-302014: Teardown TCP connection 820298 for inside:10.10.4.22/46920 to outside:77.83.36.19/443 duration 0:00:36 bytes 3610156 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:24:55 fw-edge %ASA-6-302014: Teardown TCP connection 941888 for inside:10.10.4.22/58456 to outside:77.83.36.19/443 duration 0:00:42 bytes 4136837 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:25:06 fw-edge %ASA-6-302014: Teardown TCP connection 629766 for inside:10.10.4.22/43954 to outside:77.83.36.19/443 duration 0:00:18 bytes 4839535 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:25:17 fw-edge %ASA-6-302014: Teardown TCP connection 461935 for inside:10.10.4.22/49054 to outside:77.83.36.19/443 duration 0:00:39 bytes 3878580 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:25:28 fw-edge %ASA-6-302014: Teardown TCP connection 875535 for inside:10.10.4.22/47628 to outside:77.83.36.19/443 duration 0:00:25 bytes 4807536 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:25:39 fw-edge %ASA-6-302014: Teardown TCP connection 896589 for inside:10.10.4.22/42976 to outside:77.83.36.19/443 duration 0:00:27 bytes 4323161 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:25:50 fw-edge %ASA-6-302014: Teardown TCP connection 608416 for inside:10.10.4.22/48587 to outside:77.83.36.19/443 duration 0:00:08 bytes 5139997 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:26:01 fw-edge %ASA-6-302014: Teardown TCP connection 590361 for inside:10.10.4.22/46322 to outside:77.83.36.19/443 duration 0:00:28 bytes 3255897 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:26:12 fw-edge %ASA-6-302014: Teardown TCP connection 878713 for inside:10.10.4.22/58787 to outside:77.83.36.19/443 duration 0:00:27 bytes 4551103 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:26:23 fw-edge %ASA-6-302014: Teardown TCP connection 499180 for inside:10.10.4.22/59116 to outside:77.83.36.19/443 duration 0:00:16 bytes 4117800 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:26:34 fw-edge %ASA-6-302014: Teardown TCP connection 938768 for inside:10.10.4.22/49278 to outside:77.83.36.19/443 duration 0:00:31 bytes 4158074 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:26:45 fw-edge %ASA-6-302014: Teardown TCP connection 766542 for inside:10.10.4.22/51668 to outside:77.83.36.19/443 duration 0:00:37 bytes 3304655 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:26:56 fw-edge %ASA-6-302014: Teardown TCP connection 511114 for inside:10.10.4.22/46062 to outside:77.83.36.19/443 duration 0:00:16 bytes 3843012 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:27:07 fw-edge %ASA-6-302014: Teardown TCP connection 623554 for inside:10.10.4.22/57599 to outside:77.83.36.19/443 duration 0:00:13 bytes 3864158 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:27:18 fw-edge %ASA-6-302014: Teardown TCP connection 437879 for inside:10.10.4.22/48116 to outside:77.83.36.19/443 duration 0:00:39 bytes 5002172 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:27:29 fw-edge %ASA-6-302014: Teardown TCP connection 946630 for inside:10.10.4.22/51277 to outside:77.83.36.19/443 duration 0:00:37 bytes 4832000 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:27:40 fw-edge %ASA-6-302014: Teardown TCP connection 586262 for inside:10.10.4.22/56474 to outside:77.83.36.19/443 duration 0:00:25 bytes 4710523 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:27:51 fw-edge %ASA-6-302014: Teardown TCP connection 319556 for inside:10.10.4.22/48685 to outside:77.83.36.19/443 duration 0:00:12 bytes 4772374 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:28:02 fw-edge %ASA-6-302014: Teardown TCP connection 488725 for inside:10.10.4.22/46944 to outside:77.83.36.19/443 duration 0:00:10 bytes 4516058 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:28:13 fw-edge %ASA-6-302014: Teardown TCP connection 276742 for inside:10.10.4.22/47980 to outside:77.83.36.19/443 duration 0:00:23 bytes 3253804 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:28:24 fw-edge %ASA-6-302014: Teardown TCP connection 676103 for inside:10.10.4.22/47179 to outside:77.83.36.19/443 duration 0:00:21 bytes 5234863 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:28:35 fw-edge %ASA-6-302014: Teardown TCP connection 158169 for inside:10.10.4.22/51732 to outside:77.83.36.19/443 duration 0:00:33 bytes 5383353 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:28:46 fw-edge %ASA-6-302014: Teardown TCP connection 724178 for inside:10.10.4.22/40113 to outside:77.83.36.19/443 duration 0:00:12 bytes 4910596 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:28:57 fw-edge %ASA-6-302014: Teardown TCP connection 697369 for inside:10.10.4.22/55257 to outside:77.83.36.19/443 duration 0:00:38 bytes 2891291 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:29:08 fw-edge %ASA-6-302014: Teardown TCP connection 465105 for inside:10.10.4.22/50969 to outside:77.83.36.19/443 duration 0:00:22 bytes 3123819 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:29:19 fw-edge %ASA-6-302014: Teardown TCP connection 512789 for inside:10.10.4.22/54350 to outside:77.83.36.19/443 duration 0:00:28 bytes 3754504 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:29:30 fw-edge %ASA-6-302014: Teardown TCP connection 723253 for inside:10.10.4.22/44559 to outside:77.83.36.19/443 duration 0:00:09 bytes 3472847 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:29:41 fw-edge %ASA-6-302014: Teardown TCP connection 244987 for inside:10.10.4.22/51432 to outside:77.83.36.19/443 duration 0:00:11 bytes 4036715 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:29:52 fw-edge %ASA-6-302014: Teardown TCP connection 366386 for inside:10.10.4.22/47506 to outside:77.83.36.19/443 duration 0:00:43 bytes 2807578 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:30:03 fw-edge %ASA-6-302014: Teardown TCP connection 871573 for inside:10.10.4.22/57501 to outside:77.83.36.19/443 duration 0:00:14 bytes 3186424 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:30:14 fw-edge %ASA-6-302014: Teardown TCP connection 466130 for inside:10.10.4.22/40605 to outside:77.83.36.19/443 duration 0:00:08 bytes 3980440 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:30:25 fw-edge %ASA-6-302014: Teardown TCP connection 503472 for inside:10.10.4.22/49793 to outside:77.83.36.19/443 duration 0:00:13 bytes 3709882 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:30:36 fw-edge %ASA-6-302014: Teardown TCP connection 990953 for inside:10.10.4.22/44744 to outside:77.83.36.19/443 duration 0:00:24 bytes 3526503 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:30:47 fw-edge %ASA-6-302014: Teardown TCP connection 173982 for inside:10.10.4.22/42303 to outside:77.83.36.19/443 duration 0:00:24 bytes 4541732 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:30:58 fw-edge %ASA-6-302014: Teardown TCP connection 368178 for inside:10.10.4.22/46619 to outside:77.83.36.19/443 duration 0:00:28 bytes 2821587 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:31:09 fw-edge %ASA-6-302014: Teardown TCP connection 156514 for inside:10.10.4.22/40138 to outside:77.83.36.19/443 duration 0:00:35 bytes 3765262 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:31:20 fw-edge %ASA-6-302014: Teardown TCP connection 457821 for inside:10.10.4.22/56417 to outside:77.83.36.19/443 duration 0:00:14 bytes 4239601 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:31:31 fw-edge %ASA-6-302014: Teardown TCP connection 100938 for inside:10.10.4.22/56160 to outside:77.83.36.19/443 duration 0:00:44 bytes 3002034 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:31:42 fw-edge %ASA-6-302014: Teardown TCP connection 151567 for inside:10.10.4.22/40942 to outside:77.83.36.19/443 duration 0:00:22 bytes 2977883 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:31:53 fw-edge %ASA-6-302014: Teardown TCP connection 182926 for inside:10.10.4.22/48145 to outside:77.83.36.19/443 duration 0:00:43 bytes 5104155 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Exfiltration",
+  "parser": "firewall",
+  "line": "Mar 12 12:32:04 fw-edge %ASA-6-302014: Teardown TCP connection 735352 for inside:10.10.4.22/56129 to outside:77.83.36.19/443 duration 0:00:33 bytes 4557393 TCP FINs",
+  "delay": 90
+ },
+ {
+  "phase": "Defence evasion",
+  "parser": "windows",
+  "line": "{\"@timestamp\":\"2025-03-12T12:35:20Z\",\"channel\":\"Security\",\"event_id\":1102,\"computer\":\"DC-01\",\"subject_user\":\"sys_helper\",\"message\":\"The audit log was cleared.\"}",
+  "delay": 1400
+ },
+ {
+  "phase": "Defence evasion",
+  "parser": "ssh",
+  "line": "Mar 12 12:35:29 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/rm -f /var/log/auth.log.1",
+  "delay": 500
+ }
+]
