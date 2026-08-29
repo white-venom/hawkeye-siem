@@ -161,7 +161,7 @@ npm run build     # tsc --noEmit && vite build
 `npm test` covers the parsers (field extraction, status mapping, timezone handling, round-trips,
 what gets skipped), each rule against a known-positive and at least one known-negative, the
 correlation windows including the off-by-one at the window edge, and an end-to-end pass that
-asserts the bundled data trips exactly the rules its scenarios were written for. 99 tests. CI
+asserts the bundled data trips exactly the rules its scenarios were written for. 101 tests. CI
 runs them before it will deploy.
 
 ## About the data

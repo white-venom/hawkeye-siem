@@ -2,8 +2,15 @@ import type { LogEvent, ParseResult, Status } from '../types.js';
 import { clfTs, lines } from './util.js';
 
 // NCSA combined - what nginx and apache both emit by default.
+//
+// The request is captured as one quoted blob rather than method/path/proto,
+// because nginx logs the request line verbatim and attack traffic is full of
+// unencoded spaces: `GET /x?id=1' OR 1=1-- HTTP/1.1`. Splitting on whitespace
+// drops exactly the lines you most want to keep.
 const COMBINED =
-  /^(\S+)\s+(\S+)\s+(\S+)\s+\[([^\]]+)\]\s+"([A-Z]+)\s+(\S+)(?:\s+(\S+))?"\s+(\d{3})\s+(\d+|-)(?:\s+"([^"]*)"\s+"([^"]*)")?/;
+  /^(\S+)\s+(\S+)\s+(\S+)\s+\[([^\]]+)\]\s+"([^"]*)"\s+(\d{3})\s+(\d+|-)(?:\s+"([^"]*)"\s+"([^"]*)")?/;
+
+const REQUEST = /^([A-Z]+)\s+(.*?)(?:\s+(HTTP\/[\d.]+))?$/;
 
 function statusOf(code: number): Status {
   if (code >= 500) return 'error';
@@ -27,7 +34,12 @@ export function parseWeb(text: string): ParseResult {
       skipped.push({ line: idx + 1, text: line });
       return;
     }
-    const code = Number(m[8]);
+    const code = Number(m[6]);
+    const req = REQUEST.exec(m[5]);
+    // a request line that isn't even method + path is itself worth keeping
+    const method = req ? req[1] : '-';
+    const rawPath = req ? req[2] : m[5];
+
     const e: LogEvent = {
       ts,
       source: 'web',
@@ -35,15 +47,15 @@ export function parseWeb(text: string): ParseResult {
       status: statusOf(code),
       raw: line,
       srcIp: m[1],
-      method: m[5],
+      method,
       // signature rules run against the decoded path; attackers url-encode
-      path: safeDecode(m[6]),
+      path: safeDecode(rawPath),
       httpStatus: code,
-      msg: m[5] + ' ' + m[6] + ' -> ' + code,
+      msg: method + ' ' + rawPath + ' -> ' + code,
     };
     if (m[3] && m[3] !== '-') e.user = m[3];
-    if (m[9] && m[9] !== '-') e.bytes = Number(m[9]);
-    if (m[11] && m[11] !== '-') e.userAgent = m[11];
+    if (m[7] && m[7] !== '-') e.bytes = Number(m[7]);
+    if (m[9] && m[9] !== '-') e.userAgent = m[9];
     events.push(e);
   });
 

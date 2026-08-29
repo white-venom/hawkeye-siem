@@ -133,6 +133,24 @@ describe('web / access.log', () => {
     expect(events[0].raw).toContain('%2e%2e%2f');
   });
 
+  it('keeps a request line with unencoded spaces - which is most of the payloads', () => {
+    const { events, skipped } = parseWeb(
+      `91.219.236.88 - - [12/Mar/2025:09:05:11 +0000] "GET /api/v1/orders?id=1' OR 1=1-- HTTP/1.1" 500 0 "-" "curl/8.4.0"`,
+    );
+    expect(skipped).toHaveLength(0);
+    expect(events[0]).toMatchObject({
+      method: 'GET',
+      path: "/api/v1/orders?id=1' OR 1=1--",
+      httpStatus: 500,
+      userAgent: 'curl/8.4.0',
+    });
+  });
+
+  it('keeps a request line with no method at all', () => {
+    const { events } = parseWeb('1.2.3.4 - - [12/Mar/2025:08:40:02 +0000] "\\x16\\x03\\x01" 400 0 "-" "-"');
+    expect(events[0]).toMatchObject({ method: '-', httpStatus: 400 });
+  });
+
   it('keeps a malformed escape rather than throwing', () => {
     const { events } = parseWeb('1.2.3.4 - - [12/Mar/2025:08:40:02 +0000] "GET /a%zz HTTP/1.1" 400 10 "-" "-"');
     expect(events[0].path).toBe('/a%zz');
