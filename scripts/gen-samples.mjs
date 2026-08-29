@@ -103,6 +103,11 @@ function authLog() {
     } else {
       ssh(ts, host, `Disconnected from user ${user} ${ip} port ${int(40000, 60000)}`);
     }
+    if (rnd() < 0.12) {
+      // cron and systemd write to auth.log too - the ssh parser has nothing to
+      // say about them and reports them as skipped, which is the honest answer
+      s.add(ts + 3, `${syslog(ts + 3)} ${host} CRON[${pid()}]: pam_unix(cron:session): session opened for user root by (uid=0)`);
+    }
   }
 
   // 07:42 London, 07:58 Singapore. Same account, same day, no plane that fast.

@@ -1,281 +1,280 @@
-Mar 12 06:00:00 fw-edge %ASA-6-302014: Teardown TCP connection 727072 for inside:10.10.4.27/49939 to outside:192.0.2.221/80 duration 0:00:01 bytes 161700 TCP FINs
-Mar 12 06:00:30 fw-edge %ASA-6-302014: Teardown TCP connection 640805 for inside:10.10.4.21/47733 to outside:192.0.2.62/22 duration 0:00:06 bytes 331442 TCP FINs
-Mar 12 06:02:26 fw-edge %ASA-6-302014: Teardown TCP connection 882645 for inside:10.10.4.53/42424 to outside:192.0.2.81/80 duration 0:01:15 bytes 289029 TCP FINs
-Mar 12 06:03:34 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.25/17428 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 06:04:21 fw-edge %ASA-6-302014: Teardown TCP connection 996644 for inside:10.10.4.35/56985 to outside:192.0.2.174/443 duration 0:00:12 bytes 229769 TCP FINs
-Mar 12 06:05:29 fw-edge %ASA-6-302014: Teardown TCP connection 172830 for inside:10.10.4.59/43740 to outside:192.0.2.171/22 duration 0:00:16 bytes 292812 TCP FINs
-Mar 12 06:06:44 fw-edge %ASA-6-302014: Teardown TCP connection 235832 for inside:10.10.4.31/45052 to outside:192.0.2.170/443 duration 0:00:19 bytes 19509 TCP FINs
-Mar 12 06:07:16 fw-edge %ASA-6-302014: Teardown TCP connection 839775 for inside:10.10.4.57/57297 to outside:192.0.2.58/443 duration 0:01:13 bytes 303822 TCP FINs
-Mar 12 06:09:01 fw-edge %ASA-6-302014: Teardown TCP connection 285962 for inside:10.10.4.59/57408 to outside:192.0.2.119/22 duration 0:01:27 bytes 356618 TCP FINs
-Mar 12 06:10:37 fw-edge %ASA-6-302014: Teardown TCP connection 194236 for inside:10.10.4.56/49244 to outside:192.0.2.144/443 duration 0:00:48 bytes 201360 TCP FINs
-Mar 12 06:11:35 fw-edge %ASA-6-302014: Teardown TCP connection 767378 for inside:10.10.4.47/41132 to outside:192.0.2.176/443 duration 0:01:27 bytes 133689 TCP FINs
-Mar 12 06:13:32 fw-edge %ASA-6-302014: Teardown TCP connection 213757 for inside:10.10.4.44/44602 to outside:192.0.2.215/80 duration 0:00:49 bytes 272676 TCP FINs
-Mar 12 06:14:12 fw-edge %ASA-6-302014: Teardown TCP connection 165913 for inside:10.10.4.45/51270 to outside:192.0.2.132/443 duration 0:01:12 bytes 197557 TCP FINs
-Mar 12 06:14:53 fw-edge %ASA-6-302014: Teardown TCP connection 193652 for inside:10.10.4.41/47449 to outside:192.0.2.88/443 duration 0:00:20 bytes 279086 TCP FINs
-Mar 12 06:16:05 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.46/61823 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 06:17:23 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.186/54553 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 06:18:36 fw-edge %ASA-6-302014: Teardown TCP connection 805715 for inside:10.10.4.54/40777 to outside:192.0.2.79/443 duration 0:00:50 bytes 177189 TCP FINs
-Mar 12 06:20:24 fw-edge %ASA-6-302014: Teardown TCP connection 684393 for inside:10.10.4.58/41061 to outside:192.0.2.70/443 duration 0:00:48 bytes 300097 TCP FINs
-Mar 12 06:21:18 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.24/20525 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 06:22:04 fw-edge %ASA-6-302014: Teardown TCP connection 443931 for inside:10.10.4.24/43016 to outside:192.0.2.111/443 duration 0:00:57 bytes 76703 TCP FINs
-Mar 12 06:23:16 fw-edge %ASA-6-302014: Teardown TCP connection 406610 for inside:10.10.4.45/55337 to outside:192.0.2.54/443 duration 0:01:28 bytes 173460 TCP FINs
-Mar 12 06:24:49 fw-edge %ASA-6-302014: Teardown TCP connection 728757 for inside:10.10.4.35/54421 to outside:192.0.2.202/443 duration 0:01:08 bytes 18936 TCP FINs
-Mar 12 06:26:33 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.168/7782 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 06:28:31 fw-edge %ASA-6-302014: Teardown TCP connection 445305 for inside:10.10.4.59/43012 to outside:192.0.2.31/80 duration 0:01:09 bytes 42659 TCP FINs
-Mar 12 06:29:40 fw-edge %ASA-6-302014: Teardown TCP connection 616605 for inside:10.10.4.45/53690 to outside:192.0.2.211/443 duration 0:01:18 bytes 330068 TCP FINs
-Mar 12 06:30:51 fw-edge %ASA-6-302014: Teardown TCP connection 449451 for inside:10.10.4.43/45835 to outside:192.0.2.74/443 duration 0:01:25 bytes 48349 TCP FINs
-Mar 12 06:32:13 fw-edge %ASA-6-302014: Teardown TCP connection 847885 for inside:10.10.4.60/46162 to outside:192.0.2.248/80 duration 0:01:29 bytes 37520 TCP FINs
-Mar 12 06:34:06 fw-edge %ASA-6-302014: Teardown TCP connection 689903 for inside:10.10.4.28/41587 to outside:192.0.2.234/443 duration 0:00:32 bytes 186541 TCP FINs
-Mar 12 06:35:39 fw-edge %ASA-6-302014: Teardown TCP connection 176403 for inside:10.10.4.50/54516 to outside:192.0.2.52/443 duration 0:01:10 bytes 213783 TCP FINs
-Mar 12 06:36:31 fw-edge %ASA-6-302014: Teardown TCP connection 168665 for inside:10.10.4.33/45632 to outside:192.0.2.63/443 duration 0:00:43 bytes 173569 TCP FINs
-Mar 12 06:37:23 fw-edge %ASA-6-302014: Teardown TCP connection 494968 for inside:10.10.4.34/48515 to outside:192.0.2.220/80 duration 0:00:20 bytes 157020 TCP FINs
-Mar 12 06:39:09 fw-edge %ASA-6-302014: Teardown TCP connection 276374 for inside:10.10.4.42/53296 to outside:192.0.2.14/80 duration 0:00:29 bytes 300893 TCP FINs
-Mar 12 06:40:30 fw-edge %ASA-6-302014: Teardown TCP connection 416175 for inside:10.10.4.54/58576 to outside:192.0.2.109/443 duration 0:01:04 bytes 323239 TCP FINs
-Mar 12 06:41:20 fw-edge %ASA-6-302014: Teardown TCP connection 567055 for inside:10.10.4.44/47046 to outside:192.0.2.41/443 duration 0:01:08 bytes 67055 TCP FINs
-Mar 12 06:42:46 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.127/39507 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 06:43:47 fw-edge %ASA-6-302014: Teardown TCP connection 848186 for inside:10.10.4.59/44480 to outside:192.0.2.58/443 duration 0:01:01 bytes 117628 TCP FINs
-Mar 12 06:44:48 fw-edge %ASA-6-302014: Teardown TCP connection 947177 for inside:10.10.4.47/56427 to outside:192.0.2.173/80 duration 0:01:28 bytes 338510 TCP FINs
-Mar 12 06:46:21 fw-edge %ASA-6-302014: Teardown TCP connection 482250 for inside:10.10.4.33/56469 to outside:192.0.2.31/22 duration 0:00:44 bytes 221569 TCP FINs
-Mar 12 06:46:51 fw-edge %ASA-6-302014: Teardown TCP connection 663820 for inside:10.10.4.26/50213 to outside:192.0.2.246/443 duration 0:00:37 bytes 371585 TCP FINs
-Mar 12 06:47:46 fw-edge %ASA-6-302014: Teardown TCP connection 258245 for inside:10.10.4.34/52435 to outside:192.0.2.22/22 duration 0:00:30 bytes 155550 TCP FINs
-Mar 12 06:49:25 fw-edge %ASA-6-302014: Teardown TCP connection 449567 for inside:10.10.4.39/41938 to outside:192.0.2.14/443 duration 0:00:44 bytes 107608 TCP FINs
-Mar 12 06:50:55 fw-edge %ASA-6-302014: Teardown TCP connection 396790 for inside:10.10.4.50/56446 to outside:192.0.2.152/443 duration 0:00:43 bytes 91890 TCP FINs
-Mar 12 06:52:27 fw-edge %ASA-6-302014: Teardown TCP connection 958938 for inside:10.10.4.39/42733 to outside:192.0.2.35/22 duration 0:01:11 bytes 359213 TCP FINs
-Mar 12 06:54:17 fw-edge %ASA-6-302014: Teardown TCP connection 156853 for inside:10.10.4.24/55025 to outside:192.0.2.77/80 duration 0:00:06 bytes 206788 TCP FINs
-Mar 12 06:55:19 fw-edge %ASA-6-302014: Teardown TCP connection 404390 for inside:10.10.4.27/47338 to outside:192.0.2.19/22 duration 0:01:14 bytes 247278 TCP FINs
-Mar 12 06:56:23 fw-edge %ASA-6-302014: Teardown TCP connection 476464 for inside:10.10.4.58/48640 to outside:192.0.2.160/443 duration 0:00:32 bytes 109959 TCP FINs
-Mar 12 06:57:53 fw-edge %ASA-6-302014: Teardown TCP connection 145465 for inside:10.10.4.52/51729 to outside:192.0.2.235/80 duration 0:00:48 bytes 193031 TCP FINs
-Mar 12 06:58:31 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.187/9703 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:00:03 fw-edge %ASA-6-302014: Teardown TCP connection 936030 for inside:10.10.4.42/55152 to outside:192.0.2.58/443 duration 0:00:08 bytes 187285 TCP FINs
-Mar 12 07:00:57 fw-edge %ASA-6-302014: Teardown TCP connection 626826 for inside:10.10.4.37/51321 to outside:192.0.2.174/443 duration 0:00:43 bytes 379615 TCP FINs
-Mar 12 07:01:34 fw-edge %ASA-6-302014: Teardown TCP connection 740883 for inside:10.10.4.31/43944 to outside:192.0.2.246/80 duration 0:00:34 bytes 221974 TCP FINs
-Mar 12 07:02:19 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.119/26112 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:04:17 fw-edge %ASA-6-302014: Teardown TCP connection 266104 for inside:10.10.4.24/45737 to outside:192.0.2.196/80 duration 0:00:49 bytes 285354 TCP FINs
-Mar 12 07:05:15 fw-edge %ASA-6-302014: Teardown TCP connection 202641 for inside:10.10.4.25/48633 to outside:192.0.2.176/22 duration 0:01:19 bytes 138268 TCP FINs
-Mar 12 07:07:04 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.52/47364 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:08:38 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.207/2172 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:09:24 fw-edge %ASA-6-302014: Teardown TCP connection 685658 for inside:10.10.4.23/41276 to outside:192.0.2.149/443 duration 0:00:09 bytes 96204 TCP FINs
-Mar 12 07:11:21 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.79/20074 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:12:05 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.31/5056 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:12:57 fw-edge %ASA-6-302014: Teardown TCP connection 744141 for inside:10.10.4.31/55316 to outside:192.0.2.68/22 duration 0:00:46 bytes 63343 TCP FINs
-Mar 12 07:13:32 fw-edge %ASA-6-302014: Teardown TCP connection 358467 for inside:10.10.4.35/50165 to outside:192.0.2.187/80 duration 0:00:58 bytes 161074 TCP FINs
-Mar 12 07:14:25 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.230/31907 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:15:41 fw-edge %ASA-6-302014: Teardown TCP connection 504014 for inside:10.10.4.55/50089 to outside:192.0.2.104/443 duration 0:01:01 bytes 290160 TCP FINs
-Mar 12 07:16:51 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.242/63844 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:18:49 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.37/50471 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:20:49 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.38/41655 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:21:42 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.122/25751 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:22:45 fw-edge %ASA-6-302014: Teardown TCP connection 278826 for inside:10.10.4.58/47316 to outside:192.0.2.174/443 duration 0:01:09 bytes 68765 TCP FINs
-Mar 12 07:24:22 fw-edge %ASA-6-302014: Teardown TCP connection 447252 for inside:10.10.4.20/41428 to outside:192.0.2.23/22 duration 0:00:11 bytes 23392 TCP FINs
-Mar 12 07:25:42 fw-edge %ASA-6-302014: Teardown TCP connection 872402 for inside:10.10.4.53/52734 to outside:192.0.2.156/80 duration 0:00:20 bytes 256314 TCP FINs
-Mar 12 07:26:27 fw-edge %ASA-6-302014: Teardown TCP connection 901091 for inside:10.10.4.48/53674 to outside:192.0.2.111/22 duration 0:00:11 bytes 16804 TCP FINs
-Mar 12 07:27:52 fw-edge %ASA-6-302014: Teardown TCP connection 379178 for inside:10.10.4.33/43882 to outside:192.0.2.148/443 duration 0:01:16 bytes 234811 TCP FINs
-Mar 12 07:28:29 fw-edge %ASA-6-302014: Teardown TCP connection 420983 for inside:10.10.4.23/44308 to outside:192.0.2.49/80 duration 0:00:46 bytes 194050 TCP FINs
-Mar 12 07:29:27 fw-edge %ASA-6-302014: Teardown TCP connection 355673 for inside:10.10.4.29/52429 to outside:192.0.2.150/443 duration 0:00:05 bytes 67656 TCP FINs
-Mar 12 07:31:26 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.156/2033 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:33:22 fw-edge %ASA-6-302014: Teardown TCP connection 411125 for inside:10.10.4.46/58767 to outside:192.0.2.26/22 duration 0:01:11 bytes 274148 TCP FINs
-Mar 12 07:34:10 fw-edge %ASA-6-302014: Teardown TCP connection 620793 for inside:10.10.4.23/56343 to outside:192.0.2.238/22 duration 0:00:53 bytes 346450 TCP FINs
-Mar 12 07:35:55 fw-edge %ASA-6-302014: Teardown TCP connection 455603 for inside:10.10.4.20/43358 to outside:192.0.2.90/443 duration 0:00:17 bytes 215023 TCP FINs
-Mar 12 07:36:53 fw-edge %ASA-6-302014: Teardown TCP connection 678266 for inside:10.10.4.36/57244 to outside:192.0.2.146/443 duration 0:00:46 bytes 242594 TCP FINs
-Mar 12 07:38:31 fw-edge %ASA-6-302014: Teardown TCP connection 433912 for inside:10.10.4.42/52875 to outside:192.0.2.204/80 duration 0:01:05 bytes 250698 TCP FINs
-Mar 12 07:39:53 fw-edge %ASA-6-302014: Teardown TCP connection 587610 for inside:10.10.4.23/41788 to outside:192.0.2.146/443 duration 0:00:44 bytes 337027 TCP FINs
-Mar 12 07:41:47 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.177/22758 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:43:26 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.139/58426 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:44:18 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.97/55285 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:44:55 fw-edge %ASA-6-302014: Teardown TCP connection 286667 for inside:10.10.4.33/54497 to outside:192.0.2.237/443 duration 0:01:00 bytes 184554 TCP FINs
-Mar 12 07:46:32 fw-edge %ASA-6-302014: Teardown TCP connection 743721 for inside:10.10.4.58/54555 to outside:192.0.2.248/443 duration 0:00:23 bytes 378958 TCP FINs
-Mar 12 07:47:24 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.144/56876 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:49:22 fw-edge %ASA-6-302014: Teardown TCP connection 763882 for inside:10.10.4.55/44787 to outside:192.0.2.17/80 duration 0:00:03 bytes 240243 TCP FINs
-Mar 12 07:50:18 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.15/8495 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:50:54 fw-edge %ASA-6-302014: Teardown TCP connection 831939 for inside:10.10.4.39/44744 to outside:192.0.2.182/443 duration 0:00:37 bytes 112065 TCP FINs
-Mar 12 07:52:47 fw-edge %ASA-6-302014: Teardown TCP connection 216025 for inside:10.10.4.33/55946 to outside:192.0.2.65/22 duration 0:01:09 bytes 330160 TCP FINs
-Mar 12 07:54:24 fw-edge %ASA-6-302014: Teardown TCP connection 660178 for inside:10.10.4.59/57898 to outside:192.0.2.192/443 duration 0:00:42 bytes 91989 TCP FINs
-Mar 12 07:55:53 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.239/16651 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:57:10 fw-edge %ASA-6-302014: Teardown TCP connection 967556 for inside:10.10.4.27/45580 to outside:192.0.2.55/443 duration 0:00:02 bytes 5869 TCP FINs
-Mar 12 07:58:31 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.75/8157 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 07:59:22 fw-edge %ASA-6-302014: Teardown TCP connection 207465 for inside:10.10.4.59/40981 to outside:192.0.2.91/443 duration 0:00:57 bytes 379882 TCP FINs
-Mar 12 08:00:39 fw-edge %ASA-6-302014: Teardown TCP connection 707929 for inside:10.10.4.20/55268 to outside:192.0.2.200/80 duration 0:00:15 bytes 219344 TCP FINs
-Mar 12 08:02:17 fw-edge %ASA-6-302014: Teardown TCP connection 763560 for inside:10.10.4.34/56985 to outside:192.0.2.245/80 duration 0:01:11 bytes 233870 TCP FINs
-Mar 12 08:03:47 fw-edge %ASA-6-302014: Teardown TCP connection 765206 for inside:10.10.4.51/52947 to outside:192.0.2.128/22 duration 0:00:21 bytes 142044 TCP FINs
-Mar 12 08:04:27 fw-edge %ASA-6-302014: Teardown TCP connection 649806 for inside:10.10.4.53/46932 to outside:192.0.2.9/443 duration 0:00:09 bytes 143455 TCP FINs
-Mar 12 08:05:57 fw-edge %ASA-6-302014: Teardown TCP connection 399353 for inside:10.10.4.56/40171 to outside:192.0.2.194/443 duration 0:01:05 bytes 351937 TCP FINs
-Mar 12 08:07:41 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.217/14869 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:08:14 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.96/51925 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:09:48 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.36/38562 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:10:42 fw-edge %ASA-6-302014: Teardown TCP connection 580487 for inside:10.10.4.49/43967 to outside:192.0.2.115/443 duration 0:00:12 bytes 81198 TCP FINs
-Mar 12 08:11:22 fw-edge %ASA-6-302014: Teardown TCP connection 697811 for inside:10.10.4.41/57073 to outside:192.0.2.111/80 duration 0:00:01 bytes 122350 TCP FINs
-Mar 12 08:13:14 fw-edge %ASA-6-302014: Teardown TCP connection 205972 for inside:10.10.4.39/52255 to outside:192.0.2.175/80 duration 0:01:18 bytes 109455 TCP FINs
-Mar 12 08:14:01 fw-edge %ASA-6-302014: Teardown TCP connection 848359 for inside:10.10.4.32/50973 to outside:192.0.2.6/443 duration 0:00:03 bytes 63718 TCP FINs
-Mar 12 08:15:29 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.110/32474 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:17:20 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.216/51361 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:18:15 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.246/64885 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:19:35 fw-edge %ASA-6-302014: Teardown TCP connection 718121 for inside:10.10.4.20/42066 to outside:192.0.2.106/443 duration 0:01:23 bytes 17246 TCP FINs
-Mar 12 08:21:32 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.44/36032 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:23:18 fw-edge %ASA-6-302014: Teardown TCP connection 502287 for inside:10.10.4.55/57373 to outside:192.0.2.4/22 duration 0:00:27 bytes 34254 TCP FINs
-Mar 12 08:24:40 fw-edge %ASA-6-302014: Teardown TCP connection 118411 for inside:10.10.4.33/55875 to outside:192.0.2.126/443 duration 0:00:26 bytes 123700 TCP FINs
-Mar 12 08:25:13 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.247/47913 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:25:58 fw-edge %ASA-6-302014: Teardown TCP connection 286510 for inside:10.10.4.32/44082 to outside:192.0.2.195/443 duration 0:01:10 bytes 242188 TCP FINs
-Mar 12 08:27:37 fw-edge %ASA-6-302014: Teardown TCP connection 375578 for inside:10.10.4.49/44072 to outside:192.0.2.26/443 duration 0:01:06 bytes 289587 TCP FINs
-Mar 12 08:29:11 fw-edge %ASA-6-302014: Teardown TCP connection 313419 for inside:10.10.4.45/54067 to outside:192.0.2.110/443 duration 0:00:51 bytes 221683 TCP FINs
-Mar 12 08:29:42 fw-edge %ASA-6-302014: Teardown TCP connection 899865 for inside:10.10.4.49/56298 to outside:192.0.2.32/443 duration 0:00:33 bytes 183276 TCP FINs
-Mar 12 08:31:34 fw-edge %ASA-6-302014: Teardown TCP connection 156503 for inside:10.10.4.57/46191 to outside:192.0.2.100/443 duration 0:00:23 bytes 262948 TCP FINs
-Mar 12 08:32:13 fw-edge %ASA-6-302014: Teardown TCP connection 266540 for inside:10.10.4.44/58911 to outside:192.0.2.198/22 duration 0:00:08 bytes 74912 TCP FINs
-Mar 12 08:33:55 fw-edge %ASA-6-302014: Teardown TCP connection 633038 for inside:10.10.4.21/41279 to outside:192.0.2.26/22 duration 0:00:47 bytes 379750 TCP FINs
-Mar 12 08:35:39 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.20/53376 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:37:33 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.86/36888 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:38:28 fw-edge %ASA-6-302014: Teardown TCP connection 576301 for inside:10.10.4.26/57136 to outside:192.0.2.163/443 duration 0:00:24 bytes 85700 TCP FINs
-Mar 12 08:39:21 fw-edge %ASA-6-302014: Teardown TCP connection 702374 for inside:10.10.4.23/45468 to outside:192.0.2.6/443 duration 0:00:16 bytes 169985 TCP FINs
-Mar 12 08:40:57 fw-edge %ASA-6-302014: Teardown TCP connection 618658 for inside:10.10.4.29/50878 to outside:192.0.2.5/80 duration 0:01:14 bytes 368582 TCP FINs
-Mar 12 08:41:31 fw-edge %ASA-6-302014: Teardown TCP connection 683459 for inside:10.10.4.43/50420 to outside:192.0.2.68/443 duration 0:00:58 bytes 289031 TCP FINs
-Mar 12 08:42:26 fw-edge %ASA-6-302014: Teardown TCP connection 485273 for inside:10.10.4.22/59921 to outside:192.0.2.76/443 duration 0:00:42 bytes 285202 TCP FINs
-Mar 12 08:44:18 fw-edge %ASA-6-302014: Teardown TCP connection 129893 for inside:10.10.4.43/45062 to outside:192.0.2.115/22 duration 0:00:31 bytes 254240 TCP FINs
-Mar 12 08:46:01 fw-edge %ASA-6-302014: Teardown TCP connection 674060 for inside:10.10.4.25/52599 to outside:192.0.2.82/80 duration 0:00:19 bytes 181883 TCP FINs
-Mar 12 08:47:04 fw-edge %ASA-6-302014: Teardown TCP connection 136674 for inside:10.10.4.58/51400 to outside:192.0.2.47/443 duration 0:00:25 bytes 252912 TCP FINs
-Mar 12 08:48:09 fw-edge %ASA-6-302014: Teardown TCP connection 149568 for inside:10.10.4.60/53131 to outside:192.0.2.123/443 duration 0:01:13 bytes 304870 TCP FINs
-Mar 12 08:48:58 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.94/63159 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:50:56 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.167/1676 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:52:39 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.95/64425 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:54:34 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.9/47550 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 08:56:00 fw-edge %ASA-6-302014: Teardown TCP connection 433801 for inside:10.10.4.54/46278 to outside:192.0.2.230/80 duration 0:01:11 bytes 341813 TCP FINs
-Mar 12 08:56:52 fw-edge %ASA-6-302014: Teardown TCP connection 361080 for inside:10.10.4.45/41399 to outside:192.0.2.115/443 duration 0:00:02 bytes 129506 TCP FINs
-Mar 12 08:58:08 fw-edge %ASA-6-302014: Teardown TCP connection 185844 for inside:10.10.4.44/58826 to outside:192.0.2.225/443 duration 0:00:17 bytes 278443 TCP FINs
-Mar 12 08:59:00 fw-edge %ASA-6-302014: Teardown TCP connection 145724 for inside:10.10.4.55/55159 to outside:192.0.2.183/443 duration 0:00:43 bytes 265644 TCP FINs
-Mar 12 09:00:02 fw-edge %ASA-6-302014: Teardown TCP connection 227221 for inside:10.10.4.41/40940 to outside:192.0.2.34/443 duration 0:00:07 bytes 199371 TCP FINs
-Mar 12 09:00:51 fw-edge %ASA-6-302014: Teardown TCP connection 377958 for inside:10.10.4.26/44224 to outside:192.0.2.156/443 duration 0:00:41 bytes 323466 TCP FINs
-Mar 12 09:02:24 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.204/27572 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:03:38 fw-edge %ASA-6-302014: Teardown TCP connection 571264 for inside:10.10.4.23/50382 to outside:192.0.2.96/443 duration 0:01:02 bytes 3411 TCP FINs
-Mar 12 09:05:09 fw-edge %ASA-6-302014: Teardown TCP connection 424215 for inside:10.10.4.42/47953 to outside:192.0.2.231/443 duration 0:00:46 bytes 17826 TCP FINs
-Mar 12 09:06:51 fw-edge %ASA-6-302014: Teardown TCP connection 592925 for inside:10.10.4.54/58993 to outside:192.0.2.73/443 duration 0:01:00 bytes 11332 TCP FINs
-Mar 12 09:08:17 fw-edge %ASA-6-302014: Teardown TCP connection 643301 for inside:10.10.4.43/51701 to outside:192.0.2.69/443 duration 0:01:12 bytes 40113 TCP FINs
-Mar 12 09:09:16 fw-edge %ASA-6-302014: Teardown TCP connection 178147 for inside:10.10.4.25/41244 to outside:192.0.2.92/22 duration 0:00:30 bytes 143743 TCP FINs
-Mar 12 09:10:12 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.52/45593 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:10:58 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.200/59280 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:12:54 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.114/52753 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:13:59 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.178/54720 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:14:30 fw-edge %ASA-6-302014: Teardown TCP connection 802186 for inside:10.10.4.33/44655 to outside:192.0.2.61/22 duration 0:01:26 bytes 275305 TCP FINs
-Mar 12 09:16:13 fw-edge %ASA-6-302014: Teardown TCP connection 947884 for inside:10.10.4.49/41931 to outside:192.0.2.245/443 duration 0:00:40 bytes 327114 TCP FINs
-Mar 12 09:16:57 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.115/9005 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:17:39 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.185/12783 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:18:48 fw-edge %ASA-6-302014: Teardown TCP connection 840080 for inside:10.10.4.54/45387 to outside:192.0.2.129/443 duration 0:00:25 bytes 270406 TCP FINs
-Mar 12 09:19:28 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.228/19000 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:20:29 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.238/22809 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:22:21 fw-edge %ASA-6-302014: Teardown TCP connection 215109 for inside:10.10.4.55/54038 to outside:192.0.2.220/22 duration 0:00:37 bytes 276446 TCP FINs
-Mar 12 09:23:04 fw-edge %ASA-6-302014: Teardown TCP connection 995447 for inside:10.10.4.39/55354 to outside:192.0.2.180/443 duration 0:01:01 bytes 119199 TCP FINs
-Mar 12 09:24:14 fw-edge %ASA-6-302014: Teardown TCP connection 347742 for inside:10.10.4.23/47167 to outside:192.0.2.157/443 duration 0:01:04 bytes 15356 TCP FINs
-Mar 12 09:25:51 fw-edge %ASA-6-302014: Teardown TCP connection 694476 for inside:10.10.4.20/59670 to outside:192.0.2.119/443 duration 0:00:06 bytes 50209 TCP FINs
-Mar 12 09:26:58 fw-edge %ASA-6-302014: Teardown TCP connection 126605 for inside:10.10.4.52/59410 to outside:192.0.2.147/443 duration 0:00:44 bytes 364109 TCP FINs
-Mar 12 09:27:51 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.129/60570 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:29:10 fw-edge %ASA-6-302014: Teardown TCP connection 719807 for inside:10.10.4.25/54931 to outside:192.0.2.69/22 duration 0:00:55 bytes 142848 TCP FINs
-Mar 12 09:30:37 fw-edge %ASA-6-302014: Teardown TCP connection 175881 for inside:10.10.4.31/40197 to outside:192.0.2.12/443 duration 0:00:22 bytes 354284 TCP FINs
-Mar 12 09:32:03 fw-edge %ASA-6-302014: Teardown TCP connection 512408 for inside:10.10.4.55/50283 to outside:192.0.2.137/80 duration 0:00:53 bytes 58569 TCP FINs
-Mar 12 09:33:23 fw-edge %ASA-6-302014: Teardown TCP connection 613604 for inside:10.10.4.43/41160 to outside:192.0.2.14/80 duration 0:00:05 bytes 52800 TCP FINs
-Mar 12 09:34:00 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.235/41676 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:35:28 fw-edge %ASA-6-302014: Teardown TCP connection 418858 for inside:10.10.4.51/50868 to outside:192.0.2.183/443 duration 0:00:01 bytes 64081 TCP FINs
-Mar 12 09:37:14 fw-edge %ASA-6-302014: Teardown TCP connection 490589 for inside:10.10.4.42/51217 to outside:192.0.2.160/443 duration 0:00:17 bytes 364557 TCP FINs
-Mar 12 09:38:22 fw-edge %ASA-6-302014: Teardown TCP connection 318959 for inside:10.10.4.30/57273 to outside:192.0.2.116/443 duration 0:00:30 bytes 22686 TCP FINs
-Mar 12 09:39:35 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.116/40104 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:40:15 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.179/26814 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:40:50 fw-edge %ASA-6-302014: Teardown TCP connection 920313 for inside:10.10.4.46/47564 to outside:192.0.2.192/443 duration 0:01:30 bytes 85102 TCP FINs
-Mar 12 09:42:03 fw-edge %ASA-6-302014: Teardown TCP connection 806791 for inside:10.10.4.53/49066 to outside:192.0.2.165/22 duration 0:00:09 bytes 184984 TCP FINs
-Mar 12 09:42:41 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.29/1263 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:44:15 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.178/21068 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:46:03 fw-edge %ASA-6-302014: Teardown TCP connection 738572 for inside:10.10.4.38/54769 to outside:192.0.2.13/443 duration 0:01:11 bytes 238800 TCP FINs
-Mar 12 09:47:41 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.228/21064 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:48:54 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.190/46229 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:50:34 fw-edge %ASA-6-302014: Teardown TCP connection 872252 for inside:10.10.4.30/49088 to outside:192.0.2.23/443 duration 0:00:37 bytes 123190 TCP FINs
-Mar 12 09:52:05 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.35/41160 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:53:46 fw-edge %ASA-6-302014: Teardown TCP connection 317036 for inside:10.10.4.43/46125 to outside:192.0.2.25/22 duration 0:00:26 bytes 339842 TCP FINs
-Mar 12 09:55:13 fw-edge %ASA-6-302014: Teardown TCP connection 427320 for inside:10.10.4.34/47801 to outside:192.0.2.204/22 duration 0:00:16 bytes 73684 TCP FINs
-Mar 12 09:57:13 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.86/9347 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 09:58:20 fw-edge %ASA-6-302014: Teardown TCP connection 217661 for inside:10.10.4.49/55465 to outside:192.0.2.4/22 duration 0:00:29 bytes 371984 TCP FINs
-Mar 12 09:59:44 fw-edge %ASA-6-302014: Teardown TCP connection 790188 for inside:10.10.4.26/41688 to outside:192.0.2.225/80 duration 0:00:01 bytes 252586 TCP FINs
-Mar 12 10:00:44 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.191/30409 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:02:21 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.22/23009 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:03:16 fw-edge %ASA-6-302014: Teardown TCP connection 616857 for inside:10.10.4.33/57150 to outside:192.0.2.107/80 duration 0:00:24 bytes 106811 TCP FINs
-Mar 12 10:05:00 fw-edge %ASA-6-302014: Teardown TCP connection 246902 for inside:10.10.4.33/50427 to outside:192.0.2.80/443 duration 0:00:20 bytes 158682 TCP FINs
-Mar 12 10:06:33 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.75/2929 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:08:22 fw-edge %ASA-6-302014: Teardown TCP connection 593191 for inside:10.10.4.34/53740 to outside:192.0.2.124/80 duration 0:00:20 bytes 124310 TCP FINs
-Mar 12 10:09:26 fw-edge %ASA-6-302014: Teardown TCP connection 208450 for inside:10.10.4.36/45667 to outside:192.0.2.220/443 duration 0:00:18 bytes 185189 TCP FINs
-Mar 12 10:10:59 fw-edge %ASA-6-302014: Teardown TCP connection 479336 for inside:10.10.4.44/48613 to outside:192.0.2.216/443 duration 0:01:27 bytes 205217 TCP FINs
-Mar 12 10:12:31 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.58/3375 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:13:36 fw-edge %ASA-6-302014: Teardown TCP connection 590584 for inside:10.10.4.41/49820 to outside:192.0.2.97/443 duration 0:00:54 bytes 296729 TCP FINs
-Mar 12 10:14:58 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.206/44282 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:16:29 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.220/16264 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:17:04 fw-edge %ASA-6-302014: Teardown TCP connection 285772 for inside:10.10.4.20/47872 to outside:192.0.2.219/80 duration 0:00:41 bytes 298826 TCP FINs
-Mar 12 10:18:40 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.119/14598 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:19:40 fw-edge %ASA-6-302014: Teardown TCP connection 597891 for inside:10.10.4.26/54387 to outside:192.0.2.170/443 duration 0:01:24 bytes 66130 TCP FINs
-Mar 12 10:21:36 fw-edge %ASA-6-302014: Teardown TCP connection 532406 for inside:10.10.4.50/44625 to outside:192.0.2.50/80 duration 0:00:09 bytes 104984 TCP FINs
-Mar 12 10:23:26 fw-edge %ASA-6-302014: Teardown TCP connection 539775 for inside:10.10.4.38/53411 to outside:192.0.2.178/80 duration 0:01:02 bytes 360887 TCP FINs
-Mar 12 10:25:16 fw-edge %ASA-6-302014: Teardown TCP connection 897590 for inside:10.10.4.42/59201 to outside:192.0.2.64/443 duration 0:00:46 bytes 222837 TCP FINs
-Mar 12 10:26:29 fw-edge %ASA-6-302014: Teardown TCP connection 172352 for inside:10.10.4.29/59809 to outside:192.0.2.70/443 duration 0:00:50 bytes 188830 TCP FINs
-Mar 12 10:27:39 fw-edge %ASA-6-302014: Teardown TCP connection 305655 for inside:10.10.4.28/57178 to outside:192.0.2.70/22 duration 0:00:24 bytes 311242 TCP FINs
-Mar 12 10:29:17 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.17/47197 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:30:24 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.30/15543 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:31:13 fw-edge %ASA-6-302014: Teardown TCP connection 447973 for inside:10.10.4.52/59330 to outside:192.0.2.207/22 duration 0:00:38 bytes 124722 TCP FINs
-Mar 12 10:32:38 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.172/53814 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:33:31 fw-edge %ASA-6-302014: Teardown TCP connection 281529 for inside:10.10.4.41/45971 to outside:192.0.2.140/443 duration 0:01:18 bytes 345691 TCP FINs
-Mar 12 10:35:20 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.17/60868 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:37:20 fw-edge %ASA-6-302014: Teardown TCP connection 394622 for inside:10.10.4.56/58649 to outside:192.0.2.141/22 duration 0:00:10 bytes 11868 TCP FINs
-Mar 12 10:38:23 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.244/32969 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:40:02 fw-edge %ASA-6-302014: Teardown TCP connection 881683 for inside:10.10.4.47/52427 to outside:192.0.2.59/22 duration 0:00:36 bytes 211228 TCP FINs
-Mar 12 10:41:56 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.193/28059 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:43:08 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.79/7591 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 10:44:10 fw-edge %ASA-6-302014: Teardown TCP connection 953680 for inside:10.10.4.49/43660 to outside:192.0.2.81/443 duration 0:00:24 bytes 260221 TCP FINs
-Mar 12 10:45:53 fw-edge %ASA-6-302014: Teardown TCP connection 247698 for inside:10.10.4.29/54466 to outside:192.0.2.174/443 duration 0:01:10 bytes 63969 TCP FINs
-Mar 12 10:47:35 fw-edge %ASA-6-302014: Teardown TCP connection 416703 for inside:10.10.4.54/57808 to outside:192.0.2.180/443 duration 0:00:13 bytes 240782 TCP FINs
-Mar 12 10:49:27 fw-edge %ASA-6-302014: Teardown TCP connection 826359 for inside:10.10.4.53/43112 to outside:192.0.2.137/443 duration 0:00:22 bytes 29560 TCP FINs
-Mar 12 10:50:19 fw-edge %ASA-6-302014: Teardown TCP connection 980622 for inside:10.10.4.42/40471 to outside:192.0.2.171/443 duration 0:00:19 bytes 302127 TCP FINs
-Mar 12 10:51:51 fw-edge %ASA-6-302014: Teardown TCP connection 935021 for inside:10.10.4.34/59883 to outside:192.0.2.108/443 duration 0:01:26 bytes 201514 TCP FINs
-Mar 12 10:52:44 fw-edge %ASA-6-302014: Teardown TCP connection 807605 for inside:10.10.4.36/51122 to outside:192.0.2.23/443 duration 0:00:56 bytes 348529 TCP FINs
-Mar 12 10:54:35 fw-edge %ASA-6-302014: Teardown TCP connection 889554 for inside:10.10.4.47/41617 to outside:192.0.2.210/443 duration 0:00:29 bytes 141541 TCP FINs
-Mar 12 10:56:17 fw-edge %ASA-6-302014: Teardown TCP connection 172604 for inside:10.10.4.26/57583 to outside:192.0.2.242/443 duration 0:00:47 bytes 177881 TCP FINs
-Mar 12 10:56:50 fw-edge %ASA-6-302014: Teardown TCP connection 777652 for inside:10.10.4.25/42389 to outside:192.0.2.82/443 duration 0:00:07 bytes 286530 TCP FINs
-Mar 12 10:57:23 fw-edge %ASA-6-302014: Teardown TCP connection 169205 for inside:10.10.4.48/48978 to outside:192.0.2.184/443 duration 0:00:42 bytes 164406 TCP FINs
-Mar 12 10:58:07 fw-edge %ASA-6-302014: Teardown TCP connection 746381 for inside:10.10.4.24/46642 to outside:192.0.2.32/443 duration 0:01:14 bytes 311297 TCP FINs
-Mar 12 10:59:08 fw-edge %ASA-6-302014: Teardown TCP connection 711702 for inside:10.10.4.23/48505 to outside:192.0.2.139/443 duration 0:00:03 bytes 90173 TCP FINs
-Mar 12 11:00:26 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.220/56064 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 11:01:03 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.171/64665 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 11:01:42 fw-edge %ASA-6-302014: Teardown TCP connection 463495 for inside:10.10.4.45/47037 to outside:192.0.2.250/443 duration 0:01:06 bytes 335041 TCP FINs
-Mar 12 11:02:48 fw-edge %ASA-6-302014: Teardown TCP connection 361289 for inside:10.10.4.49/58135 to outside:192.0.2.159/443 duration 0:01:03 bytes 257796 TCP FINs
-Mar 12 11:04:34 fw-edge %ASA-6-302014: Teardown TCP connection 793059 for inside:10.10.4.43/42741 to outside:192.0.2.68/80 duration 0:00:10 bytes 306759 TCP FINs
-Mar 12 11:05:33 fw-edge %ASA-6-302014: Teardown TCP connection 499457 for inside:10.10.4.27/52922 to outside:192.0.2.111/443 duration 0:01:27 bytes 41899 TCP FINs
-Mar 12 11:07:29 fw-edge %ASA-6-302014: Teardown TCP connection 735861 for inside:10.10.4.23/52383 to outside:192.0.2.25/443 duration 0:01:09 bytes 331728 TCP FINs
-Mar 12 11:09:20 fw-edge %ASA-6-302014: Teardown TCP connection 640624 for inside:10.10.4.51/41456 to outside:192.0.2.82/443 duration 0:00:36 bytes 290805 TCP FINs
-Mar 12 11:11:08 fw-edge %ASA-6-302014: Teardown TCP connection 741438 for inside:10.10.4.37/59173 to outside:192.0.2.48/22 duration 0:00:39 bytes 284128 TCP FINs
-Mar 12 11:12:27 fw-edge %ASA-6-302014: Teardown TCP connection 143410 for inside:10.10.4.47/59254 to outside:192.0.2.44/443 duration 0:01:10 bytes 252151 TCP FINs
-Mar 12 11:14:23 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.80/25999 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 11:15:24 fw-edge %ASA-6-302014: Teardown TCP connection 172731 for inside:10.10.4.53/45267 to outside:192.0.2.142/443 duration 0:00:19 bytes 112683 TCP FINs
-Mar 12 11:16:00 fw-edge %ASA-6-302014: Teardown TCP connection 536671 for inside:10.10.4.52/57857 to outside:192.0.2.184/80 duration 0:01:29 bytes 82583 TCP FINs
-Mar 12 11:17:42 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.153/35588 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 11:18:52 fw-edge %ASA-6-302014: Teardown TCP connection 815830 for inside:10.10.4.48/51218 to outside:192.0.2.155/80 duration 0:01:27 bytes 327556 TCP FINs
-Mar 12 11:20:42 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.168/46292 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 11:21:50 fw-edge %ASA-6-302014: Teardown TCP connection 560997 for inside:10.10.4.27/40053 to outside:192.0.2.86/443 duration 0:00:15 bytes 226519 TCP FINs
-Mar 12 11:22:22 fw-edge %ASA-6-302014: Teardown TCP connection 834185 for inside:10.10.4.46/58497 to outside:192.0.2.19/443 duration 0:00:56 bytes 151304 TCP FINs
-Mar 12 11:23:01 fw-edge %ASA-6-302014: Teardown TCP connection 451613 for inside:10.10.4.45/42792 to outside:192.0.2.59/443 duration 0:00:47 bytes 352512 TCP FINs
-Mar 12 11:23:40 fw-edge %ASA-6-302014: Teardown TCP connection 249035 for inside:10.10.4.28/54552 to outside:192.0.2.173/443 duration 0:00:46 bytes 205024 TCP FINs
-Mar 12 11:25:18 fw-edge %ASA-6-302014: Teardown TCP connection 835358 for inside:10.10.4.48/55229 to outside:192.0.2.121/80 duration 0:00:57 bytes 306388 TCP FINs
-Mar 12 11:26:34 fw-edge %ASA-6-302014: Teardown TCP connection 658697 for inside:10.10.4.34/46729 to outside:192.0.2.183/22 duration 0:00:54 bytes 212316 TCP FINs
-Mar 12 11:28:11 fw-edge %ASA-6-302014: Teardown TCP connection 576919 for inside:10.10.4.59/56300 to outside:192.0.2.172/443 duration 0:00:26 bytes 370956 TCP FINs
-Mar 12 11:30:01 fw-edge %ASA-6-302014: Teardown TCP connection 690554 for inside:10.10.4.46/49857 to outside:192.0.2.164/443 duration 0:01:27 bytes 352315 TCP FINs
-Mar 12 11:31:54 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.185/40368 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 11:32:50 fw-edge %ASA-6-302014: Teardown TCP connection 935156 for inside:10.10.4.47/58203 to outside:192.0.2.235/443 duration 0:00:12 bytes 36491 TCP FINs
-Mar 12 11:34:24 fw-edge %ASA-6-302014: Teardown TCP connection 167906 for inside:10.10.4.47/51986 to outside:192.0.2.176/443 duration 0:00:23 bytes 344521 TCP FINs
-Mar 12 11:35:32 fw-edge %ASA-6-302014: Teardown TCP connection 499763 for inside:10.10.4.33/57981 to outside:192.0.2.15/443 duration 0:00:34 bytes 271513 TCP FINs
-Mar 12 11:36:58 fw-edge %ASA-6-302014: Teardown TCP connection 169520 for inside:10.10.4.56/45156 to outside:192.0.2.150/443 duration 0:01:28 bytes 188707 TCP FINs
-Mar 12 11:38:30 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.219/51269 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 11:39:22 fw-edge %ASA-6-302014: Teardown TCP connection 387710 for inside:10.10.4.48/55105 to outside:192.0.2.118/22 duration 0:00:17 bytes 141285 TCP FINs
-Mar 12 11:41:07 fw-edge %ASA-6-302014: Teardown TCP connection 251287 for inside:10.10.4.34/51131 to outside:192.0.2.157/22 duration 0:01:10 bytes 225918 TCP FINs
-Mar 12 11:42:50 fw-edge %ASA-6-302014: Teardown TCP connection 264703 for inside:10.10.4.23/43167 to outside:192.0.2.250/443 duration 0:00:44 bytes 296227 TCP FINs
-Mar 12 11:44:04 fw-edge %ASA-6-302014: Teardown TCP connection 298940 for inside:10.10.4.21/57461 to outside:192.0.2.178/443 duration 0:00:09 bytes 370352 TCP FINs
-Mar 12 11:45:21 fw-edge %ASA-6-302014: Teardown TCP connection 903456 for inside:10.10.4.34/50135 to outside:192.0.2.75/22 duration 0:01:03 bytes 137575 TCP FINs
-Mar 12 11:45:54 fw-edge %ASA-6-302014: Teardown TCP connection 283655 for inside:10.10.4.38/48313 to outside:192.0.2.233/22 duration 0:00:19 bytes 359981 TCP FINs
-Mar 12 11:47:14 fw-edge %ASA-6-302014: Teardown TCP connection 947299 for inside:10.10.4.29/43761 to outside:192.0.2.181/80 duration 0:00:52 bytes 205349 TCP FINs
-Mar 12 11:48:46 fw-edge %ASA-6-302014: Teardown TCP connection 914219 for inside:10.10.4.40/56498 to outside:192.0.2.101/443 duration 0:00:35 bytes 47512 TCP FINs
-Mar 12 11:49:58 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.100/15239 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
-Mar 12 11:50:55 fw-edge %ASA-6-302014: Teardown TCP connection 958725 for inside:10.10.4.20/52728 to outside:192.0.2.201/22 duration 0:01:04 bytes 86776 TCP FINs
-Mar 12 11:52:15 fw-edge %ASA-6-302014: Teardown TCP connection 641246 for inside:10.10.4.37/49111 to outside:192.0.2.246/22 duration 0:00:34 bytes 149455 TCP FINs
-Mar 12 11:53:15 fw-edge %ASA-6-302014: Teardown TCP connection 349053 for inside:10.10.4.60/45317 to outside:192.0.2.152/443 duration 0:00:55 bytes 242522 TCP FINs
-Mar 12 11:54:39 fw-edge %ASA-6-302014: Teardown TCP connection 671565 for inside:10.10.4.44/46679 to outside:192.0.2.175/443 duration 0:00:22 bytes 241954 TCP FINs
-Mar 12 11:55:16 fw-edge %ASA-6-302014: Teardown TCP connection 652376 for inside:10.10.4.51/46360 to outside:192.0.2.221/443 duration 0:00:43 bytes 332691 TCP FINs
-Mar 12 11:56:47 fw-edge %ASA-6-302014: Teardown TCP connection 932303 for inside:10.10.4.47/42715 to outside:192.0.2.159/443 duration 0:00:17 bytes 262677 TCP FINs
-Mar 12 11:58:37 fw-edge %ASA-6-302014: Teardown TCP connection 675407 for inside:10.10.4.47/42741 to outside:192.0.2.217/80 duration 0:00:19 bytes 155614 TCP FINs
+Mar 12 06:00:00 fw-edge %ASA-6-302014: Teardown TCP connection 663820 for inside:10.10.4.26/50213 to outside:192.0.2.246/443 duration 0:00:37 bytes 371585 TCP FINs
+Mar 12 06:00:55 fw-edge %ASA-6-302014: Teardown TCP connection 258245 for inside:10.10.4.34/52435 to outside:192.0.2.22/22 duration 0:00:30 bytes 155550 TCP FINs
+Mar 12 06:02:34 fw-edge %ASA-6-302014: Teardown TCP connection 449567 for inside:10.10.4.39/41938 to outside:192.0.2.14/443 duration 0:00:44 bytes 107608 TCP FINs
+Mar 12 06:04:04 fw-edge %ASA-6-302014: Teardown TCP connection 396790 for inside:10.10.4.50/56446 to outside:192.0.2.152/443 duration 0:00:43 bytes 91890 TCP FINs
+Mar 12 06:05:36 fw-edge %ASA-6-302014: Teardown TCP connection 958938 for inside:10.10.4.39/42733 to outside:192.0.2.35/22 duration 0:01:11 bytes 359213 TCP FINs
+Mar 12 06:07:26 fw-edge %ASA-6-302014: Teardown TCP connection 156853 for inside:10.10.4.24/55025 to outside:192.0.2.77/80 duration 0:00:06 bytes 206788 TCP FINs
+Mar 12 06:08:28 fw-edge %ASA-6-302014: Teardown TCP connection 404390 for inside:10.10.4.27/47338 to outside:192.0.2.19/22 duration 0:01:14 bytes 247278 TCP FINs
+Mar 12 06:09:32 fw-edge %ASA-6-302014: Teardown TCP connection 476464 for inside:10.10.4.58/48640 to outside:192.0.2.160/443 duration 0:00:32 bytes 109959 TCP FINs
+Mar 12 06:11:02 fw-edge %ASA-6-302014: Teardown TCP connection 145465 for inside:10.10.4.52/51729 to outside:192.0.2.235/80 duration 0:00:48 bytes 193031 TCP FINs
+Mar 12 06:11:40 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.187/9703 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:13:12 fw-edge %ASA-6-302014: Teardown TCP connection 936030 for inside:10.10.4.42/55152 to outside:192.0.2.58/443 duration 0:00:08 bytes 187285 TCP FINs
+Mar 12 06:14:06 fw-edge %ASA-6-302014: Teardown TCP connection 626826 for inside:10.10.4.37/51321 to outside:192.0.2.174/443 duration 0:00:43 bytes 379615 TCP FINs
+Mar 12 06:14:43 fw-edge %ASA-6-302014: Teardown TCP connection 740883 for inside:10.10.4.31/43944 to outside:192.0.2.246/80 duration 0:00:34 bytes 221974 TCP FINs
+Mar 12 06:15:28 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.119/26112 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:17:26 fw-edge %ASA-6-302014: Teardown TCP connection 266104 for inside:10.10.4.24/45737 to outside:192.0.2.196/80 duration 0:00:49 bytes 285354 TCP FINs
+Mar 12 06:18:24 fw-edge %ASA-6-302014: Teardown TCP connection 202641 for inside:10.10.4.25/48633 to outside:192.0.2.176/22 duration 0:01:19 bytes 138268 TCP FINs
+Mar 12 06:20:13 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.52/47364 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:21:47 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.207/2172 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:22:33 fw-edge %ASA-6-302014: Teardown TCP connection 685658 for inside:10.10.4.23/41276 to outside:192.0.2.149/443 duration 0:00:09 bytes 96204 TCP FINs
+Mar 12 06:24:30 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.79/20074 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:25:14 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.31/5056 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:26:06 fw-edge %ASA-6-302014: Teardown TCP connection 744141 for inside:10.10.4.31/55316 to outside:192.0.2.68/22 duration 0:00:46 bytes 63343 TCP FINs
+Mar 12 06:26:41 fw-edge %ASA-6-302014: Teardown TCP connection 358467 for inside:10.10.4.35/50165 to outside:192.0.2.187/80 duration 0:00:58 bytes 161074 TCP FINs
+Mar 12 06:27:34 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.230/31907 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:28:50 fw-edge %ASA-6-302014: Teardown TCP connection 504014 for inside:10.10.4.55/50089 to outside:192.0.2.104/443 duration 0:01:01 bytes 290160 TCP FINs
+Mar 12 06:30:00 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.242/63844 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:31:58 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.37/50471 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:33:58 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.38/41655 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:34:51 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.122/25751 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:35:54 fw-edge %ASA-6-302014: Teardown TCP connection 278826 for inside:10.10.4.58/47316 to outside:192.0.2.174/443 duration 0:01:09 bytes 68765 TCP FINs
+Mar 12 06:37:31 fw-edge %ASA-6-302014: Teardown TCP connection 447252 for inside:10.10.4.20/41428 to outside:192.0.2.23/22 duration 0:00:11 bytes 23392 TCP FINs
+Mar 12 06:38:51 fw-edge %ASA-6-302014: Teardown TCP connection 872402 for inside:10.10.4.53/52734 to outside:192.0.2.156/80 duration 0:00:20 bytes 256314 TCP FINs
+Mar 12 06:39:36 fw-edge %ASA-6-302014: Teardown TCP connection 901091 for inside:10.10.4.48/53674 to outside:192.0.2.111/22 duration 0:00:11 bytes 16804 TCP FINs
+Mar 12 06:41:01 fw-edge %ASA-6-302014: Teardown TCP connection 379178 for inside:10.10.4.33/43882 to outside:192.0.2.148/443 duration 0:01:16 bytes 234811 TCP FINs
+Mar 12 06:41:38 fw-edge %ASA-6-302014: Teardown TCP connection 420983 for inside:10.10.4.23/44308 to outside:192.0.2.49/80 duration 0:00:46 bytes 194050 TCP FINs
+Mar 12 06:42:36 fw-edge %ASA-6-302014: Teardown TCP connection 355673 for inside:10.10.4.29/52429 to outside:192.0.2.150/443 duration 0:00:05 bytes 67656 TCP FINs
+Mar 12 06:44:35 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.156/2033 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:46:31 fw-edge %ASA-6-302014: Teardown TCP connection 411125 for inside:10.10.4.46/58767 to outside:192.0.2.26/22 duration 0:01:11 bytes 274148 TCP FINs
+Mar 12 06:47:19 fw-edge %ASA-6-302014: Teardown TCP connection 620793 for inside:10.10.4.23/56343 to outside:192.0.2.238/22 duration 0:00:53 bytes 346450 TCP FINs
+Mar 12 06:49:04 fw-edge %ASA-6-302014: Teardown TCP connection 455603 for inside:10.10.4.20/43358 to outside:192.0.2.90/443 duration 0:00:17 bytes 215023 TCP FINs
+Mar 12 06:50:02 fw-edge %ASA-6-302014: Teardown TCP connection 678266 for inside:10.10.4.36/57244 to outside:192.0.2.146/443 duration 0:00:46 bytes 242594 TCP FINs
+Mar 12 06:51:40 fw-edge %ASA-6-302014: Teardown TCP connection 433912 for inside:10.10.4.42/52875 to outside:192.0.2.204/80 duration 0:01:05 bytes 250698 TCP FINs
+Mar 12 06:53:02 fw-edge %ASA-6-302014: Teardown TCP connection 587610 for inside:10.10.4.23/41788 to outside:192.0.2.146/443 duration 0:00:44 bytes 337027 TCP FINs
+Mar 12 06:54:56 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.177/22758 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:56:35 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.139/58426 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:57:27 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.97/55285 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 06:58:04 fw-edge %ASA-6-302014: Teardown TCP connection 286667 for inside:10.10.4.33/54497 to outside:192.0.2.237/443 duration 0:01:00 bytes 184554 TCP FINs
+Mar 12 06:59:41 fw-edge %ASA-6-302014: Teardown TCP connection 743721 for inside:10.10.4.58/54555 to outside:192.0.2.248/443 duration 0:00:23 bytes 378958 TCP FINs
+Mar 12 07:00:33 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.144/56876 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:02:31 fw-edge %ASA-6-302014: Teardown TCP connection 763882 for inside:10.10.4.55/44787 to outside:192.0.2.17/80 duration 0:00:03 bytes 240243 TCP FINs
+Mar 12 07:03:27 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.15/8495 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:04:03 fw-edge %ASA-6-302014: Teardown TCP connection 831939 for inside:10.10.4.39/44744 to outside:192.0.2.182/443 duration 0:00:37 bytes 112065 TCP FINs
+Mar 12 07:05:56 fw-edge %ASA-6-302014: Teardown TCP connection 216025 for inside:10.10.4.33/55946 to outside:192.0.2.65/22 duration 0:01:09 bytes 330160 TCP FINs
+Mar 12 07:07:33 fw-edge %ASA-6-302014: Teardown TCP connection 660178 for inside:10.10.4.59/57898 to outside:192.0.2.192/443 duration 0:00:42 bytes 91989 TCP FINs
+Mar 12 07:09:02 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.239/16651 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:10:19 fw-edge %ASA-6-302014: Teardown TCP connection 967556 for inside:10.10.4.27/45580 to outside:192.0.2.55/443 duration 0:00:02 bytes 5869 TCP FINs
+Mar 12 07:11:40 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.75/8157 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:12:31 fw-edge %ASA-6-302014: Teardown TCP connection 207465 for inside:10.10.4.59/40981 to outside:192.0.2.91/443 duration 0:00:57 bytes 379882 TCP FINs
+Mar 12 07:13:48 fw-edge %ASA-6-302014: Teardown TCP connection 707929 for inside:10.10.4.20/55268 to outside:192.0.2.200/80 duration 0:00:15 bytes 219344 TCP FINs
+Mar 12 07:15:26 fw-edge %ASA-6-302014: Teardown TCP connection 763560 for inside:10.10.4.34/56985 to outside:192.0.2.245/80 duration 0:01:11 bytes 233870 TCP FINs
+Mar 12 07:16:56 fw-edge %ASA-6-302014: Teardown TCP connection 765206 for inside:10.10.4.51/52947 to outside:192.0.2.128/22 duration 0:00:21 bytes 142044 TCP FINs
+Mar 12 07:17:36 fw-edge %ASA-6-302014: Teardown TCP connection 649806 for inside:10.10.4.53/46932 to outside:192.0.2.9/443 duration 0:00:09 bytes 143455 TCP FINs
+Mar 12 07:19:06 fw-edge %ASA-6-302014: Teardown TCP connection 399353 for inside:10.10.4.56/40171 to outside:192.0.2.194/443 duration 0:01:05 bytes 351937 TCP FINs
+Mar 12 07:20:50 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.217/14869 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:21:23 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.96/51925 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:22:57 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.36/38562 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:23:51 fw-edge %ASA-6-302014: Teardown TCP connection 580487 for inside:10.10.4.49/43967 to outside:192.0.2.115/443 duration 0:00:12 bytes 81198 TCP FINs
+Mar 12 07:24:31 fw-edge %ASA-6-302014: Teardown TCP connection 697811 for inside:10.10.4.41/57073 to outside:192.0.2.111/80 duration 0:00:01 bytes 122350 TCP FINs
+Mar 12 07:26:23 fw-edge %ASA-6-302014: Teardown TCP connection 205972 for inside:10.10.4.39/52255 to outside:192.0.2.175/80 duration 0:01:18 bytes 109455 TCP FINs
+Mar 12 07:27:10 fw-edge %ASA-6-302014: Teardown TCP connection 848359 for inside:10.10.4.32/50973 to outside:192.0.2.6/443 duration 0:00:03 bytes 63718 TCP FINs
+Mar 12 07:28:38 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.110/32474 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:30:29 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.216/51361 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:31:24 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.246/64885 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:32:44 fw-edge %ASA-6-302014: Teardown TCP connection 718121 for inside:10.10.4.20/42066 to outside:192.0.2.106/443 duration 0:01:23 bytes 17246 TCP FINs
+Mar 12 07:34:41 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.44/36032 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:36:27 fw-edge %ASA-6-302014: Teardown TCP connection 502287 for inside:10.10.4.55/57373 to outside:192.0.2.4/22 duration 0:00:27 bytes 34254 TCP FINs
+Mar 12 07:37:49 fw-edge %ASA-6-302014: Teardown TCP connection 118411 for inside:10.10.4.33/55875 to outside:192.0.2.126/443 duration 0:00:26 bytes 123700 TCP FINs
+Mar 12 07:38:22 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.247/47913 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:39:07 fw-edge %ASA-6-302014: Teardown TCP connection 286510 for inside:10.10.4.32/44082 to outside:192.0.2.195/443 duration 0:01:10 bytes 242188 TCP FINs
+Mar 12 07:40:46 fw-edge %ASA-6-302014: Teardown TCP connection 375578 for inside:10.10.4.49/44072 to outside:192.0.2.26/443 duration 0:01:06 bytes 289587 TCP FINs
+Mar 12 07:42:20 fw-edge %ASA-6-302014: Teardown TCP connection 313419 for inside:10.10.4.45/54067 to outside:192.0.2.110/443 duration 0:00:51 bytes 221683 TCP FINs
+Mar 12 07:42:51 fw-edge %ASA-6-302014: Teardown TCP connection 899865 for inside:10.10.4.49/56298 to outside:192.0.2.32/443 duration 0:00:33 bytes 183276 TCP FINs
+Mar 12 07:44:43 fw-edge %ASA-6-302014: Teardown TCP connection 156503 for inside:10.10.4.57/46191 to outside:192.0.2.100/443 duration 0:00:23 bytes 262948 TCP FINs
+Mar 12 07:45:22 fw-edge %ASA-6-302014: Teardown TCP connection 266540 for inside:10.10.4.44/58911 to outside:192.0.2.198/22 duration 0:00:08 bytes 74912 TCP FINs
+Mar 12 07:47:04 fw-edge %ASA-6-302014: Teardown TCP connection 633038 for inside:10.10.4.21/41279 to outside:192.0.2.26/22 duration 0:00:47 bytes 379750 TCP FINs
+Mar 12 07:48:48 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.20/53376 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:50:42 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.86/36888 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 07:51:37 fw-edge %ASA-6-302014: Teardown TCP connection 576301 for inside:10.10.4.26/57136 to outside:192.0.2.163/443 duration 0:00:24 bytes 85700 TCP FINs
+Mar 12 07:52:30 fw-edge %ASA-6-302014: Teardown TCP connection 702374 for inside:10.10.4.23/45468 to outside:192.0.2.6/443 duration 0:00:16 bytes 169985 TCP FINs
+Mar 12 07:54:06 fw-edge %ASA-6-302014: Teardown TCP connection 618658 for inside:10.10.4.29/50878 to outside:192.0.2.5/80 duration 0:01:14 bytes 368582 TCP FINs
+Mar 12 07:54:40 fw-edge %ASA-6-302014: Teardown TCP connection 683459 for inside:10.10.4.43/50420 to outside:192.0.2.68/443 duration 0:00:58 bytes 289031 TCP FINs
+Mar 12 07:55:35 fw-edge %ASA-6-302014: Teardown TCP connection 485273 for inside:10.10.4.22/59921 to outside:192.0.2.76/443 duration 0:00:42 bytes 285202 TCP FINs
+Mar 12 07:57:27 fw-edge %ASA-6-302014: Teardown TCP connection 129893 for inside:10.10.4.43/45062 to outside:192.0.2.115/22 duration 0:00:31 bytes 254240 TCP FINs
+Mar 12 07:59:10 fw-edge %ASA-6-302014: Teardown TCP connection 674060 for inside:10.10.4.25/52599 to outside:192.0.2.82/80 duration 0:00:19 bytes 181883 TCP FINs
+Mar 12 08:00:13 fw-edge %ASA-6-302014: Teardown TCP connection 136674 for inside:10.10.4.58/51400 to outside:192.0.2.47/443 duration 0:00:25 bytes 252912 TCP FINs
+Mar 12 08:01:18 fw-edge %ASA-6-302014: Teardown TCP connection 149568 for inside:10.10.4.60/53131 to outside:192.0.2.123/443 duration 0:01:13 bytes 304870 TCP FINs
+Mar 12 08:02:07 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.94/63159 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:04:05 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.167/1676 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:05:48 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.95/64425 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:07:43 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.9/47550 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:09:09 fw-edge %ASA-6-302014: Teardown TCP connection 433801 for inside:10.10.4.54/46278 to outside:192.0.2.230/80 duration 0:01:11 bytes 341813 TCP FINs
+Mar 12 08:10:01 fw-edge %ASA-6-302014: Teardown TCP connection 361080 for inside:10.10.4.45/41399 to outside:192.0.2.115/443 duration 0:00:02 bytes 129506 TCP FINs
+Mar 12 08:11:17 fw-edge %ASA-6-302014: Teardown TCP connection 185844 for inside:10.10.4.44/58826 to outside:192.0.2.225/443 duration 0:00:17 bytes 278443 TCP FINs
+Mar 12 08:12:09 fw-edge %ASA-6-302014: Teardown TCP connection 145724 for inside:10.10.4.55/55159 to outside:192.0.2.183/443 duration 0:00:43 bytes 265644 TCP FINs
+Mar 12 08:13:11 fw-edge %ASA-6-302014: Teardown TCP connection 227221 for inside:10.10.4.41/40940 to outside:192.0.2.34/443 duration 0:00:07 bytes 199371 TCP FINs
+Mar 12 08:14:00 fw-edge %ASA-6-302014: Teardown TCP connection 377958 for inside:10.10.4.26/44224 to outside:192.0.2.156/443 duration 0:00:41 bytes 323466 TCP FINs
+Mar 12 08:15:33 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.204/27572 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:16:47 fw-edge %ASA-6-302014: Teardown TCP connection 571264 for inside:10.10.4.23/50382 to outside:192.0.2.96/443 duration 0:01:02 bytes 3411 TCP FINs
+Mar 12 08:18:18 fw-edge %ASA-6-302014: Teardown TCP connection 424215 for inside:10.10.4.42/47953 to outside:192.0.2.231/443 duration 0:00:46 bytes 17826 TCP FINs
+Mar 12 08:20:00 fw-edge %ASA-6-302014: Teardown TCP connection 592925 for inside:10.10.4.54/58993 to outside:192.0.2.73/443 duration 0:01:00 bytes 11332 TCP FINs
+Mar 12 08:21:26 fw-edge %ASA-6-302014: Teardown TCP connection 643301 for inside:10.10.4.43/51701 to outside:192.0.2.69/443 duration 0:01:12 bytes 40113 TCP FINs
+Mar 12 08:22:25 fw-edge %ASA-6-302014: Teardown TCP connection 178147 for inside:10.10.4.25/41244 to outside:192.0.2.92/22 duration 0:00:30 bytes 143743 TCP FINs
+Mar 12 08:23:21 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.52/45593 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:24:07 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.200/59280 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:26:03 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.114/52753 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:27:08 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.178/54720 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:27:39 fw-edge %ASA-6-302014: Teardown TCP connection 802186 for inside:10.10.4.33/44655 to outside:192.0.2.61/22 duration 0:01:26 bytes 275305 TCP FINs
+Mar 12 08:29:22 fw-edge %ASA-6-302014: Teardown TCP connection 947884 for inside:10.10.4.49/41931 to outside:192.0.2.245/443 duration 0:00:40 bytes 327114 TCP FINs
+Mar 12 08:30:06 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.115/9005 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:30:48 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.185/12783 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:31:57 fw-edge %ASA-6-302014: Teardown TCP connection 840080 for inside:10.10.4.54/45387 to outside:192.0.2.129/443 duration 0:00:25 bytes 270406 TCP FINs
+Mar 12 08:32:37 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.228/19000 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:33:38 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.238/22809 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:35:30 fw-edge %ASA-6-302014: Teardown TCP connection 215109 for inside:10.10.4.55/54038 to outside:192.0.2.220/22 duration 0:00:37 bytes 276446 TCP FINs
+Mar 12 08:36:13 fw-edge %ASA-6-302014: Teardown TCP connection 995447 for inside:10.10.4.39/55354 to outside:192.0.2.180/443 duration 0:01:01 bytes 119199 TCP FINs
+Mar 12 08:37:23 fw-edge %ASA-6-302014: Teardown TCP connection 347742 for inside:10.10.4.23/47167 to outside:192.0.2.157/443 duration 0:01:04 bytes 15356 TCP FINs
+Mar 12 08:39:00 fw-edge %ASA-6-302014: Teardown TCP connection 694476 for inside:10.10.4.20/59670 to outside:192.0.2.119/443 duration 0:00:06 bytes 50209 TCP FINs
+Mar 12 08:40:07 fw-edge %ASA-6-302014: Teardown TCP connection 126605 for inside:10.10.4.52/59410 to outside:192.0.2.147/443 duration 0:00:44 bytes 364109 TCP FINs
+Mar 12 08:41:00 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.129/60570 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:42:19 fw-edge %ASA-6-302014: Teardown TCP connection 719807 for inside:10.10.4.25/54931 to outside:192.0.2.69/22 duration 0:00:55 bytes 142848 TCP FINs
+Mar 12 08:43:46 fw-edge %ASA-6-302014: Teardown TCP connection 175881 for inside:10.10.4.31/40197 to outside:192.0.2.12/443 duration 0:00:22 bytes 354284 TCP FINs
+Mar 12 08:45:12 fw-edge %ASA-6-302014: Teardown TCP connection 512408 for inside:10.10.4.55/50283 to outside:192.0.2.137/80 duration 0:00:53 bytes 58569 TCP FINs
+Mar 12 08:46:32 fw-edge %ASA-6-302014: Teardown TCP connection 613604 for inside:10.10.4.43/41160 to outside:192.0.2.14/80 duration 0:00:05 bytes 52800 TCP FINs
+Mar 12 08:47:09 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.235/41676 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:48:37 fw-edge %ASA-6-302014: Teardown TCP connection 418858 for inside:10.10.4.51/50868 to outside:192.0.2.183/443 duration 0:00:01 bytes 64081 TCP FINs
+Mar 12 08:50:23 fw-edge %ASA-6-302014: Teardown TCP connection 490589 for inside:10.10.4.42/51217 to outside:192.0.2.160/443 duration 0:00:17 bytes 364557 TCP FINs
+Mar 12 08:51:31 fw-edge %ASA-6-302014: Teardown TCP connection 318959 for inside:10.10.4.30/57273 to outside:192.0.2.116/443 duration 0:00:30 bytes 22686 TCP FINs
+Mar 12 08:52:44 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.116/40104 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:53:24 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.179/26814 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:53:59 fw-edge %ASA-6-302014: Teardown TCP connection 920313 for inside:10.10.4.46/47564 to outside:192.0.2.192/443 duration 0:01:30 bytes 85102 TCP FINs
+Mar 12 08:55:12 fw-edge %ASA-6-302014: Teardown TCP connection 806791 for inside:10.10.4.53/49066 to outside:192.0.2.165/22 duration 0:00:09 bytes 184984 TCP FINs
+Mar 12 08:55:50 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.29/1263 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:57:24 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.178/21068 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 08:59:12 fw-edge %ASA-6-302014: Teardown TCP connection 738572 for inside:10.10.4.38/54769 to outside:192.0.2.13/443 duration 0:01:11 bytes 238800 TCP FINs
+Mar 12 09:00:50 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.228/21064 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:02:03 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.190/46229 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:03:43 fw-edge %ASA-6-302014: Teardown TCP connection 872252 for inside:10.10.4.30/49088 to outside:192.0.2.23/443 duration 0:00:37 bytes 123190 TCP FINs
+Mar 12 09:05:14 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.35/41160 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:06:55 fw-edge %ASA-6-302014: Teardown TCP connection 317036 for inside:10.10.4.43/46125 to outside:192.0.2.25/22 duration 0:00:26 bytes 339842 TCP FINs
+Mar 12 09:08:22 fw-edge %ASA-6-302014: Teardown TCP connection 427320 for inside:10.10.4.34/47801 to outside:192.0.2.204/22 duration 0:00:16 bytes 73684 TCP FINs
+Mar 12 09:10:22 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.86/9347 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:11:29 fw-edge %ASA-6-302014: Teardown TCP connection 217661 for inside:10.10.4.49/55465 to outside:192.0.2.4/22 duration 0:00:29 bytes 371984 TCP FINs
+Mar 12 09:12:53 fw-edge %ASA-6-302014: Teardown TCP connection 790188 for inside:10.10.4.26/41688 to outside:192.0.2.225/80 duration 0:00:01 bytes 252586 TCP FINs
+Mar 12 09:13:53 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.191/30409 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:15:30 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.22/23009 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:16:25 fw-edge %ASA-6-302014: Teardown TCP connection 616857 for inside:10.10.4.33/57150 to outside:192.0.2.107/80 duration 0:00:24 bytes 106811 TCP FINs
+Mar 12 09:18:09 fw-edge %ASA-6-302014: Teardown TCP connection 246902 for inside:10.10.4.33/50427 to outside:192.0.2.80/443 duration 0:00:20 bytes 158682 TCP FINs
+Mar 12 09:19:42 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.75/2929 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:21:31 fw-edge %ASA-6-302014: Teardown TCP connection 593191 for inside:10.10.4.34/53740 to outside:192.0.2.124/80 duration 0:00:20 bytes 124310 TCP FINs
+Mar 12 09:22:35 fw-edge %ASA-6-302014: Teardown TCP connection 208450 for inside:10.10.4.36/45667 to outside:192.0.2.220/443 duration 0:00:18 bytes 185189 TCP FINs
+Mar 12 09:24:08 fw-edge %ASA-6-302014: Teardown TCP connection 479336 for inside:10.10.4.44/48613 to outside:192.0.2.216/443 duration 0:01:27 bytes 205217 TCP FINs
+Mar 12 09:25:40 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.58/3375 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:26:45 fw-edge %ASA-6-302014: Teardown TCP connection 590584 for inside:10.10.4.41/49820 to outside:192.0.2.97/443 duration 0:00:54 bytes 296729 TCP FINs
+Mar 12 09:28:07 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.206/44282 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:29:38 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.220/16264 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:30:13 fw-edge %ASA-6-302014: Teardown TCP connection 285772 for inside:10.10.4.20/47872 to outside:192.0.2.219/80 duration 0:00:41 bytes 298826 TCP FINs
+Mar 12 09:31:49 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.119/14598 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:32:49 fw-edge %ASA-6-302014: Teardown TCP connection 597891 for inside:10.10.4.26/54387 to outside:192.0.2.170/443 duration 0:01:24 bytes 66130 TCP FINs
+Mar 12 09:34:45 fw-edge %ASA-6-302014: Teardown TCP connection 532406 for inside:10.10.4.50/44625 to outside:192.0.2.50/80 duration 0:00:09 bytes 104984 TCP FINs
+Mar 12 09:36:35 fw-edge %ASA-6-302014: Teardown TCP connection 539775 for inside:10.10.4.38/53411 to outside:192.0.2.178/80 duration 0:01:02 bytes 360887 TCP FINs
+Mar 12 09:38:25 fw-edge %ASA-6-302014: Teardown TCP connection 897590 for inside:10.10.4.42/59201 to outside:192.0.2.64/443 duration 0:00:46 bytes 222837 TCP FINs
+Mar 12 09:39:38 fw-edge %ASA-6-302014: Teardown TCP connection 172352 for inside:10.10.4.29/59809 to outside:192.0.2.70/443 duration 0:00:50 bytes 188830 TCP FINs
+Mar 12 09:40:48 fw-edge %ASA-6-302014: Teardown TCP connection 305655 for inside:10.10.4.28/57178 to outside:192.0.2.70/22 duration 0:00:24 bytes 311242 TCP FINs
+Mar 12 09:42:26 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.17/47197 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:43:33 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.30/15543 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:44:22 fw-edge %ASA-6-302014: Teardown TCP connection 447973 for inside:10.10.4.52/59330 to outside:192.0.2.207/22 duration 0:00:38 bytes 124722 TCP FINs
+Mar 12 09:45:47 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.172/53814 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:46:40 fw-edge %ASA-6-302014: Teardown TCP connection 281529 for inside:10.10.4.41/45971 to outside:192.0.2.140/443 duration 0:01:18 bytes 345691 TCP FINs
+Mar 12 09:48:29 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.17/60868 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:50:29 fw-edge %ASA-6-302014: Teardown TCP connection 394622 for inside:10.10.4.56/58649 to outside:192.0.2.141/22 duration 0:00:10 bytes 11868 TCP FINs
+Mar 12 09:51:32 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.244/32969 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:53:11 fw-edge %ASA-6-302014: Teardown TCP connection 881683 for inside:10.10.4.47/52427 to outside:192.0.2.59/22 duration 0:00:36 bytes 211228 TCP FINs
+Mar 12 09:55:05 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.193/28059 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:56:17 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.79/7591 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 09:57:19 fw-edge %ASA-6-302014: Teardown TCP connection 953680 for inside:10.10.4.49/43660 to outside:192.0.2.81/443 duration 0:00:24 bytes 260221 TCP FINs
+Mar 12 09:59:02 fw-edge %ASA-6-302014: Teardown TCP connection 247698 for inside:10.10.4.29/54466 to outside:192.0.2.174/443 duration 0:01:10 bytes 63969 TCP FINs
+Mar 12 10:00:44 fw-edge %ASA-6-302014: Teardown TCP connection 416703 for inside:10.10.4.54/57808 to outside:192.0.2.180/443 duration 0:00:13 bytes 240782 TCP FINs
+Mar 12 10:02:36 fw-edge %ASA-6-302014: Teardown TCP connection 826359 for inside:10.10.4.53/43112 to outside:192.0.2.137/443 duration 0:00:22 bytes 29560 TCP FINs
+Mar 12 10:03:28 fw-edge %ASA-6-302014: Teardown TCP connection 980622 for inside:10.10.4.42/40471 to outside:192.0.2.171/443 duration 0:00:19 bytes 302127 TCP FINs
+Mar 12 10:05:00 fw-edge %ASA-6-302014: Teardown TCP connection 935021 for inside:10.10.4.34/59883 to outside:192.0.2.108/443 duration 0:01:26 bytes 201514 TCP FINs
+Mar 12 10:05:53 fw-edge %ASA-6-302014: Teardown TCP connection 807605 for inside:10.10.4.36/51122 to outside:192.0.2.23/443 duration 0:00:56 bytes 348529 TCP FINs
+Mar 12 10:07:44 fw-edge %ASA-6-302014: Teardown TCP connection 889554 for inside:10.10.4.47/41617 to outside:192.0.2.210/443 duration 0:00:29 bytes 141541 TCP FINs
+Mar 12 10:09:26 fw-edge %ASA-6-302014: Teardown TCP connection 172604 for inside:10.10.4.26/57583 to outside:192.0.2.242/443 duration 0:00:47 bytes 177881 TCP FINs
+Mar 12 10:09:59 fw-edge %ASA-6-302014: Teardown TCP connection 777652 for inside:10.10.4.25/42389 to outside:192.0.2.82/443 duration 0:00:07 bytes 286530 TCP FINs
+Mar 12 10:10:32 fw-edge %ASA-6-302014: Teardown TCP connection 169205 for inside:10.10.4.48/48978 to outside:192.0.2.184/443 duration 0:00:42 bytes 164406 TCP FINs
+Mar 12 10:11:16 fw-edge %ASA-6-302014: Teardown TCP connection 746381 for inside:10.10.4.24/46642 to outside:192.0.2.32/443 duration 0:01:14 bytes 311297 TCP FINs
+Mar 12 10:12:17 fw-edge %ASA-6-302014: Teardown TCP connection 711702 for inside:10.10.4.23/48505 to outside:192.0.2.139/443 duration 0:00:03 bytes 90173 TCP FINs
+Mar 12 10:13:35 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.220/56064 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 10:14:12 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.171/64665 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 10:14:51 fw-edge %ASA-6-302014: Teardown TCP connection 463495 for inside:10.10.4.45/47037 to outside:192.0.2.250/443 duration 0:01:06 bytes 335041 TCP FINs
+Mar 12 10:15:57 fw-edge %ASA-6-302014: Teardown TCP connection 361289 for inside:10.10.4.49/58135 to outside:192.0.2.159/443 duration 0:01:03 bytes 257796 TCP FINs
+Mar 12 10:17:43 fw-edge %ASA-6-302014: Teardown TCP connection 793059 for inside:10.10.4.43/42741 to outside:192.0.2.68/80 duration 0:00:10 bytes 306759 TCP FINs
+Mar 12 10:18:42 fw-edge %ASA-6-302014: Teardown TCP connection 499457 for inside:10.10.4.27/52922 to outside:192.0.2.111/443 duration 0:01:27 bytes 41899 TCP FINs
+Mar 12 10:20:38 fw-edge %ASA-6-302014: Teardown TCP connection 735861 for inside:10.10.4.23/52383 to outside:192.0.2.25/443 duration 0:01:09 bytes 331728 TCP FINs
+Mar 12 10:22:29 fw-edge %ASA-6-302014: Teardown TCP connection 640624 for inside:10.10.4.51/41456 to outside:192.0.2.82/443 duration 0:00:36 bytes 290805 TCP FINs
+Mar 12 10:24:17 fw-edge %ASA-6-302014: Teardown TCP connection 741438 for inside:10.10.4.37/59173 to outside:192.0.2.48/22 duration 0:00:39 bytes 284128 TCP FINs
+Mar 12 10:25:36 fw-edge %ASA-6-302014: Teardown TCP connection 143410 for inside:10.10.4.47/59254 to outside:192.0.2.44/443 duration 0:01:10 bytes 252151 TCP FINs
+Mar 12 10:27:32 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.80/25999 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 10:28:33 fw-edge %ASA-6-302014: Teardown TCP connection 172731 for inside:10.10.4.53/45267 to outside:192.0.2.142/443 duration 0:00:19 bytes 112683 TCP FINs
+Mar 12 10:29:09 fw-edge %ASA-6-302014: Teardown TCP connection 536671 for inside:10.10.4.52/57857 to outside:192.0.2.184/80 duration 0:01:29 bytes 82583 TCP FINs
+Mar 12 10:30:51 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.153/35588 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 10:32:01 fw-edge %ASA-6-302014: Teardown TCP connection 815830 for inside:10.10.4.48/51218 to outside:192.0.2.155/80 duration 0:01:27 bytes 327556 TCP FINs
+Mar 12 10:33:51 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.168/46292 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 10:34:59 fw-edge %ASA-6-302014: Teardown TCP connection 560997 for inside:10.10.4.27/40053 to outside:192.0.2.86/443 duration 0:00:15 bytes 226519 TCP FINs
+Mar 12 10:35:31 fw-edge %ASA-6-302014: Teardown TCP connection 834185 for inside:10.10.4.46/58497 to outside:192.0.2.19/443 duration 0:00:56 bytes 151304 TCP FINs
+Mar 12 10:36:10 fw-edge %ASA-6-302014: Teardown TCP connection 451613 for inside:10.10.4.45/42792 to outside:192.0.2.59/443 duration 0:00:47 bytes 352512 TCP FINs
+Mar 12 10:36:49 fw-edge %ASA-6-302014: Teardown TCP connection 249035 for inside:10.10.4.28/54552 to outside:192.0.2.173/443 duration 0:00:46 bytes 205024 TCP FINs
+Mar 12 10:38:27 fw-edge %ASA-6-302014: Teardown TCP connection 835358 for inside:10.10.4.48/55229 to outside:192.0.2.121/80 duration 0:00:57 bytes 306388 TCP FINs
+Mar 12 10:39:43 fw-edge %ASA-6-302014: Teardown TCP connection 658697 for inside:10.10.4.34/46729 to outside:192.0.2.183/22 duration 0:00:54 bytes 212316 TCP FINs
+Mar 12 10:41:20 fw-edge %ASA-6-302014: Teardown TCP connection 576919 for inside:10.10.4.59/56300 to outside:192.0.2.172/443 duration 0:00:26 bytes 370956 TCP FINs
+Mar 12 10:43:10 fw-edge %ASA-6-302014: Teardown TCP connection 690554 for inside:10.10.4.46/49857 to outside:192.0.2.164/443 duration 0:01:27 bytes 352315 TCP FINs
+Mar 12 10:45:03 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.185/40368 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 10:45:59 fw-edge %ASA-6-302014: Teardown TCP connection 935156 for inside:10.10.4.47/58203 to outside:192.0.2.235/443 duration 0:00:12 bytes 36491 TCP FINs
+Mar 12 10:47:33 fw-edge %ASA-6-302014: Teardown TCP connection 167906 for inside:10.10.4.47/51986 to outside:192.0.2.176/443 duration 0:00:23 bytes 344521 TCP FINs
+Mar 12 10:48:41 fw-edge %ASA-6-302014: Teardown TCP connection 499763 for inside:10.10.4.33/57981 to outside:192.0.2.15/443 duration 0:00:34 bytes 271513 TCP FINs
+Mar 12 10:50:07 fw-edge %ASA-6-302014: Teardown TCP connection 169520 for inside:10.10.4.56/45156 to outside:192.0.2.150/443 duration 0:01:28 bytes 188707 TCP FINs
+Mar 12 10:51:39 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.219/51269 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 10:52:31 fw-edge %ASA-6-302014: Teardown TCP connection 387710 for inside:10.10.4.48/55105 to outside:192.0.2.118/22 duration 0:00:17 bytes 141285 TCP FINs
+Mar 12 10:54:16 fw-edge %ASA-6-302014: Teardown TCP connection 251287 for inside:10.10.4.34/51131 to outside:192.0.2.157/22 duration 0:01:10 bytes 225918 TCP FINs
+Mar 12 10:55:59 fw-edge %ASA-6-302014: Teardown TCP connection 264703 for inside:10.10.4.23/43167 to outside:192.0.2.250/443 duration 0:00:44 bytes 296227 TCP FINs
+Mar 12 10:57:13 fw-edge %ASA-6-302014: Teardown TCP connection 298940 for inside:10.10.4.21/57461 to outside:192.0.2.178/443 duration 0:00:09 bytes 370352 TCP FINs
+Mar 12 10:58:30 fw-edge %ASA-6-302014: Teardown TCP connection 903456 for inside:10.10.4.34/50135 to outside:192.0.2.75/22 duration 0:01:03 bytes 137575 TCP FINs
+Mar 12 10:59:03 fw-edge %ASA-6-302014: Teardown TCP connection 283655 for inside:10.10.4.38/48313 to outside:192.0.2.233/22 duration 0:00:19 bytes 359981 TCP FINs
+Mar 12 11:00:23 fw-edge %ASA-6-302014: Teardown TCP connection 947299 for inside:10.10.4.29/43761 to outside:192.0.2.181/80 duration 0:00:52 bytes 205349 TCP FINs
+Mar 12 11:01:55 fw-edge %ASA-6-302014: Teardown TCP connection 914219 for inside:10.10.4.40/56498 to outside:192.0.2.101/443 duration 0:00:35 bytes 47512 TCP FINs
+Mar 12 11:03:07 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.100/15239 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:04:04 fw-edge %ASA-6-302014: Teardown TCP connection 958725 for inside:10.10.4.20/52728 to outside:192.0.2.201/22 duration 0:01:04 bytes 86776 TCP FINs
+Mar 12 11:05:24 fw-edge %ASA-6-302014: Teardown TCP connection 641246 for inside:10.10.4.37/49111 to outside:192.0.2.246/22 duration 0:00:34 bytes 149455 TCP FINs
+Mar 12 11:06:24 fw-edge %ASA-6-302014: Teardown TCP connection 349053 for inside:10.10.4.60/45317 to outside:192.0.2.152/443 duration 0:00:55 bytes 242522 TCP FINs
+Mar 12 11:07:48 fw-edge %ASA-6-302014: Teardown TCP connection 671565 for inside:10.10.4.44/46679 to outside:192.0.2.175/443 duration 0:00:22 bytes 241954 TCP FINs
+Mar 12 11:08:25 fw-edge %ASA-6-302014: Teardown TCP connection 652376 for inside:10.10.4.51/46360 to outside:192.0.2.221/443 duration 0:00:43 bytes 332691 TCP FINs
+Mar 12 11:09:56 fw-edge %ASA-6-302014: Teardown TCP connection 932303 for inside:10.10.4.47/42715 to outside:192.0.2.159/443 duration 0:00:17 bytes 262677 TCP FINs
+Mar 12 11:11:46 fw-edge %ASA-6-302014: Teardown TCP connection 675407 for inside:10.10.4.47/42741 to outside:192.0.2.217/80 duration 0:00:19 bytes 155614 TCP FINs
+Mar 12 11:13:24 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.113/1539 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:14:43 fw-edge %ASA-6-302014: Teardown TCP connection 139207 for inside:10.10.4.53/41618 to outside:192.0.2.207/443 duration 0:00:23 bytes 341135 TCP FINs
+Mar 12 11:16:27 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.154/35830 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:18:00 fw-edge %ASA-6-302014: Teardown TCP connection 985288 for inside:10.10.4.21/58981 to outside:192.0.2.167/80 duration 0:01:06 bytes 109642 TCP FINs
+Mar 12 11:19:32 fw-edge %ASA-6-302014: Teardown TCP connection 681204 for inside:10.10.4.42/44816 to outside:192.0.2.32/443 duration 0:00:40 bytes 132537 TCP FINs
+Mar 12 11:20:58 fw-edge %ASA-6-302014: Teardown TCP connection 164207 for inside:10.10.4.50/47515 to outside:192.0.2.81/80 duration 0:00:12 bytes 224458 TCP FINs
+Mar 12 11:22:46 fw-edge %ASA-6-302014: Teardown TCP connection 969812 for inside:10.10.4.38/46590 to outside:192.0.2.12/80 duration 0:00:14 bytes 141843 TCP FINs
+Mar 12 11:23:48 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.152/38982 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:24:30 fw-edge %ASA-6-302014: Teardown TCP connection 797641 for inside:10.10.4.32/49805 to outside:192.0.2.246/443 duration 0:00:03 bytes 31967 TCP FINs
+Mar 12 11:25:44 fw-edge %ASA-6-302014: Teardown TCP connection 767972 for inside:10.10.4.25/54324 to outside:192.0.2.71/22 duration 0:00:18 bytes 81306 TCP FINs
+Mar 12 11:27:06 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.110/15758 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:28:30 fw-edge %ASA-6-302014: Teardown TCP connection 121096 for inside:10.10.4.54/54522 to outside:192.0.2.158/443 duration 0:00:19 bytes 216909 TCP FINs
+Mar 12 11:29:56 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.207/32083 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:31:40 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.179/6271 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:33:07 fw-edge %ASA-6-302014: Teardown TCP connection 929759 for inside:10.10.4.56/52064 to outside:192.0.2.241/443 duration 0:00:25 bytes 195563 TCP FINs
+Mar 12 11:34:49 fw-edge %ASA-6-302014: Teardown TCP connection 943088 for inside:10.10.4.52/46920 to outside:192.0.2.191/443 duration 0:01:24 bytes 355542 TCP FINs
+Mar 12 11:36:31 fw-edge %ASA-6-302014: Teardown TCP connection 809565 for inside:10.10.4.28/45557 to outside:192.0.2.115/443 duration 0:01:17 bytes 172678 TCP FINs
+Mar 12 11:38:19 fw-edge %ASA-6-302014: Teardown TCP connection 608416 for inside:10.10.4.39/52308 to outside:192.0.2.222/443 duration 0:01:22 bytes 202607 TCP FINs
+Mar 12 11:39:28 fw-edge %ASA-6-302014: Teardown TCP connection 945405 for inside:10.10.4.29/50897 to outside:192.0.2.80/443 duration 0:01:18 bytes 265156 TCP FINs
+Mar 12 11:40:45 fw-edge %ASA-6-302014: Teardown TCP connection 666399 for inside:10.10.4.38/59116 to outside:192.0.2.57/443 duration 0:00:42 bytes 354229 TCP FINs
+Mar 12 11:41:37 fw-edge %ASA-6-302014: Teardown TCP connection 506336 for inside:10.10.4.43/55939 to outside:192.0.2.112/443 duration 0:00:21 bytes 116027 TCP FINs
+Mar 12 11:42:59 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.36/55911 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:44:05 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.200/61207 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:45:47 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.136/53722 dst inside:203.0.113.9/3389 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:47:27 fw-edge %ASA-6-302014: Teardown TCP connection 310151 for inside:10.10.4.37/42681 to outside:192.0.2.172/443 duration 0:00:07 bytes 132729 TCP FINs
+Mar 12 11:48:14 fw-edge %ASA-6-302014: Teardown TCP connection 158169 for inside:10.10.4.36/58821 to outside:192.0.2.161/443 duration 0:01:30 bytes 142181 TCP FINs
+Mar 12 11:49:37 fw-edge %ASA-6-302014: Teardown TCP connection 786551 for inside:10.10.4.53/53871 to outside:192.0.2.3/443 duration 0:01:00 bytes 40607 TCP FINs
+Mar 12 11:51:22 fw-edge %ASA-6-302014: Teardown TCP connection 609062 for inside:10.10.4.36/50969 to outside:192.0.2.99/443 duration 0:01:05 bytes 174939 TCP FINs
+Mar 12 11:52:20 fw-edge %ASA-6-302014: Teardown TCP connection 166721 for inside:10.10.4.29/40602 to outside:192.0.2.129/443 duration 0:00:09 bytes 217723 TCP FINs
+Mar 12 11:53:16 fw-edge %ASA-6-302014: Teardown TCP connection 466130 for inside:10.10.4.59/44188 to outside:192.0.2.215/22 duration 0:00:45 bytes 65170 TCP FINs
+Mar 12 11:53:48 fw-edge %ASA-6-302014: Teardown TCP connection 313489 for inside:10.10.4.36/48966 to outside:192.0.2.123/443 duration 0:01:30 bytes 126542 TCP FINs
+Mar 12 11:54:58 fw-edge %ASA-6-302014: Teardown TCP connection 588697 for inside:10.10.4.23/42303 to outside:192.0.2.111/443 duration 0:00:30 bytes 114073 TCP FINs
+Mar 12 11:56:05 fw-edge %ASA-6-302014: Teardown TCP connection 229225 for inside:10.10.4.20/54711 to outside:192.0.2.147/443 duration 0:00:16 bytes 312124 TCP FINs
+Mar 12 11:56:35 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.250/9658 dst inside:203.0.113.9/22 by access-group "outside_access_in" [0x0, 0x0]
+Mar 12 11:57:09 fw-edge %ASA-6-302014: Teardown TCP connection 825775 for inside:10.10.4.56/41842 to outside:192.0.2.103/22 duration 0:01:04 bytes 266008 TCP FINs
+Mar 12 11:58:41 fw-edge %ASA-6-302014: Teardown TCP connection 893328 for inside:10.10.4.40/55511 to outside:192.0.2.145/443 duration 0:01:11 bytes 221914 TCP FINs
+Mar 12 11:59:38 fw-edge %ASA-4-106023: Deny tcp src outside:192.0.2.44/6855 dst inside:203.0.113.9/445 by access-group "outside_access_in" [0x0, 0x0]

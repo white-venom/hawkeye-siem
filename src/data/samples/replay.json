@@ -2,271 +2,271 @@
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:00 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=60765 PROTO=TCP SPT=48936 DPT=21 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:00 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=37639 PROTO=TCP SPT=41787 DPT=21 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 400
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:04 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=1515 PROTO=TCP SPT=55491 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:04 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=18441 PROTO=TCP SPT=56058 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:08 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=35492 PROTO=TCP SPT=44486 DPT=23 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:08 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=7648 PROTO=TCP SPT=47965 DPT=23 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:12 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=52883 PROTO=TCP SPT=41618 DPT=25 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:12 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=5615 PROTO=TCP SPT=53034 DPT=25 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:16 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=53878 PROTO=TCP SPT=41670 DPT=53 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:16 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=28204 PROTO=TCP SPT=52085 DPT=53 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:20 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=58434 PROTO=TCP SPT=45046 DPT=80 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:20 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=23895 PROTO=TCP SPT=45242 DPT=80 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:24 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=3788 PROTO=TCP SPT=56426 DPT=110 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:24 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=3062 PROTO=TCP SPT=47091 DPT=110 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:28 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=57876 PROTO=TCP SPT=52228 DPT=135 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:28 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=41817 PROTO=TCP SPT=50337 DPT=135 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:32 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=35819 PROTO=TCP SPT=48127 DPT=139 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:32 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=12436 PROTO=TCP SPT=56257 DPT=139 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:36 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=45934 PROTO=TCP SPT=40707 DPT=143 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:36 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=48954 PROTO=TCP SPT=48984 DPT=143 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:40 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=2970 PROTO=TCP SPT=58981 DPT=443 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:40 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=38510 PROTO=TCP SPT=47815 DPT=443 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:44 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=43441 PROTO=TCP SPT=52669 DPT=445 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:44 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=39777 PROTO=TCP SPT=43524 DPT=445 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:48 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=19322 PROTO=TCP SPT=54550 DPT=993 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:48 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=50386 PROTO=TCP SPT=56832 DPT=993 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:52 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=63954 PROTO=TCP SPT=53738 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:52 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=6379 PROTO=TCP SPT=44125 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:05:56 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=12630 PROTO=TCP SPT=50960 DPT=1521 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:05:56 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=21648 PROTO=TCP SPT=48906 DPT=1521 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:00 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=16412 PROTO=TCP SPT=42413 DPT=2049 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:00 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=11344 PROTO=TCP SPT=41017 DPT=2049 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:04 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=10929 PROTO=TCP SPT=46934 DPT=2375 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:04 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=48875 PROTO=TCP SPT=45476 DPT=2375 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:08 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=29050 PROTO=TCP SPT=52916 DPT=3306 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:08 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=63221 PROTO=TCP SPT=57427 DPT=3306 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:12 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=40981 PROTO=TCP SPT=50663 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:12 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=22044 PROTO=TCP SPT=49927 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:16 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=49189 PROTO=TCP SPT=47515 DPT=5432 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:16 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=44427 PROTO=TCP SPT=41959 DPT=5432 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:20 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=21511 PROTO=TCP SPT=52625 DPT=5900 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:20 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=12571 PROTO=TCP SPT=43865 DPT=5900 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:24 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=38720 PROTO=TCP SPT=42600 DPT=5985 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:24 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=56928 PROTO=TCP SPT=43493 DPT=5985 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:28 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=5565 PROTO=TCP SPT=57298 DPT=6379 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:28 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=29756 PROTO=TCP SPT=53228 DPT=6379 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:32 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=3410 PROTO=TCP SPT=48904 DPT=8080 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:32 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=46443 PROTO=TCP SPT=42477 DPT=8080 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:36 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=22090 PROTO=TCP SPT=40879 DPT=8443 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:36 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=35031 PROTO=TCP SPT=56300 DPT=8443 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:40 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=46972 PROTO=TCP SPT=47426 DPT=9200 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:40 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=46949 PROTO=TCP SPT=50118 DPT=9200 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:44 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=10474 PROTO=TCP SPT=59330 DPT=11211 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:44 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=9458 PROTO=TCP SPT=44480 DPT=11211 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:48 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=23598 PROTO=TCP SPT=57700 DPT=27017 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:48 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=51508 PROTO=TCP SPT=54760 DPT=27017 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:52 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=39631 PROTO=TCP SPT=51866 DPT=5601 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:52 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=52826 PROTO=TCP SPT=52189 DPT=5601 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Reconnaissance",
   "parser": "firewall",
-  "line": "Mar 12 12:06:56 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=1204 PROTO=TCP SPT=42814 DPT=15672 WINDOW=1024 RES=0x00 SYN URGP=0",
+  "line": "Mar 12 12:06:56 web-01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:4a:2b:11 SRC=77.83.36.19 DST=10.10.4.22 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=60770 PROTO=TCP SPT=54201 DPT=15672 WINDOW=1024 RES=0x00 SYN URGP=0",
   "delay": 70
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:11:00 web-01 sshd[21513]: Failed password for root from 77.83.36.19 port 46222 ssh2",
+  "line": "Mar 12 12:11:00 web-01 sshd[11163]: Failed password for root from 77.83.36.19 port 44544 ssh2",
   "delay": 1100
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:11:11 web-01 sshd[16299]: Failed password for root from 77.83.36.19 port 59623 ssh2",
+  "line": "Mar 12 12:11:11 web-01 sshd[16763]: Failed password for root from 77.83.36.19 port 56350 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:11:22 web-01 sshd[11320]: Failed password for root from 77.83.36.19 port 41624 ssh2",
+  "line": "Mar 12 12:11:22 web-01 sshd[11148]: Failed password for root from 77.83.36.19 port 53979 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:11:33 web-01 sshd[2147]: Failed password for root from 77.83.36.19 port 55503 ssh2",
+  "line": "Mar 12 12:11:33 web-01 sshd[22359]: Failed password for root from 77.83.36.19 port 56617 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:11:44 web-01 sshd[16372]: Failed password for root from 77.83.36.19 port 50233 ssh2",
+  "line": "Mar 12 12:11:44 web-01 sshd[7309]: Failed password for root from 77.83.36.19 port 59090 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:11:55 web-01 sshd[5564]: Failed password for root from 77.83.36.19 port 54324 ssh2",
+  "line": "Mar 12 12:11:55 web-01 sshd[6529]: Failed password for root from 77.83.36.19 port 59363 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:12:06 web-01 sshd[9846]: Failed password for root from 77.83.36.19 port 59145 ssh2",
+  "line": "Mar 12 12:12:06 web-01 sshd[18606]: Failed password for root from 77.83.36.19 port 53874 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:12:17 web-01 sshd[7713]: Failed password for root from 77.83.36.19 port 43809 ssh2",
+  "line": "Mar 12 12:12:17 web-01 sshd[25019]: Failed password for root from 77.83.36.19 port 46621 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:12:28 web-01 sshd[24060]: Failed password for root from 77.83.36.19 port 51542 ssh2",
+  "line": "Mar 12 12:12:28 web-01 sshd[6118]: Failed password for root from 77.83.36.19 port 56904 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:12:39 web-01 sshd[25763]: Failed password for root from 77.83.36.19 port 48722 ssh2",
+  "line": "Mar 12 12:12:39 web-01 sshd[31998]: Failed password for root from 77.83.36.19 port 58341 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:12:50 web-01 sshd[8293]: Failed password for root from 77.83.36.19 port 53287 ssh2",
+  "line": "Mar 12 12:12:50 web-01 sshd[13360]: Failed password for root from 77.83.36.19 port 58650 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:13:01 web-01 sshd[19785]: Failed password for root from 77.83.36.19 port 54654 ssh2",
+  "line": "Mar 12 12:13:01 web-01 sshd[13015]: Failed password for root from 77.83.36.19 port 58081 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:13:12 web-01 sshd[27128]: Failed password for root from 77.83.36.19 port 54522 ssh2",
+  "line": "Mar 12 12:13:12 web-01 sshd[11704]: Failed password for root from 77.83.36.19 port 48255 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:13:23 web-01 sshd[20575]: Failed password for root from 77.83.36.19 port 40387 ssh2",
+  "line": "Mar 12 12:13:23 web-01 sshd[5131]: Failed password for root from 77.83.36.19 port 59765 ssh2",
   "delay": 110
  },
  {
   "phase": "Credential access",
   "parser": "ssh",
-  "line": "Mar 12 12:13:34 web-01 sshd[18739]: Accepted password for root from 77.83.36.19 port 44053 ssh2",
+  "line": "Mar 12 12:13:34 web-01 sshd[19720]: Accepted password for root from 77.83.36.19 port 50485 ssh2",
   "delay": 700
  },
  {
@@ -278,25 +278,25 @@
  {
   "phase": "Privilege escalation",
   "parser": "ssh",
-  "line": "Mar 12 12:16:30 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod u+s /tmp/.b",
+  "line": "Mar 12 12:16:30 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/cat /etc/shadow",
   "delay": 140
  },
  {
   "phase": "Privilege escalation",
   "parser": "ssh",
-  "line": "Mar 12 12:16:50 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd -M sys_helper",
+  "line": "Mar 12 12:16:50 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/cat /etc/shadow",
   "delay": 140
  },
  {
   "phase": "Privilege escalation",
   "parser": "ssh",
-  "line": "Mar 12 12:17:10 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd -M sys_helper",
+  "line": "Mar 12 12:17:10 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod u+s /tmp/.b",
   "delay": 140
  },
  {
   "phase": "Privilege escalation",
   "parser": "ssh",
-  "line": "Mar 12 12:17:30 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/cp /bin/bash /tmp/.b",
+  "line": "Mar 12 12:17:30 web-01 sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/cat /etc/shadow",
   "delay": 140
  },
  {
@@ -380,271 +380,271 @@
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:24:00 fw-edge %ASA-6-302014: Teardown TCP connection 835356 for inside:10.10.4.22/56478 to outside:77.83.36.19/443 duration 0:00:34 bytes 4589787 TCP FINs",
+  "line": "Mar 12 12:24:00 fw-edge %ASA-6-302014: Teardown TCP connection 283756 for inside:10.10.4.22/46922 to outside:77.83.36.19/443 duration 0:00:35 bytes 4061026 TCP FINs",
   "delay": 1300
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:24:11 fw-edge %ASA-6-302014: Teardown TCP connection 750979 for inside:10.10.4.22/52582 to outside:77.83.36.19/443 duration 0:00:18 bytes 2829651 TCP FINs",
+  "line": "Mar 12 12:24:11 fw-edge %ASA-6-302014: Teardown TCP connection 576877 for inside:10.10.4.22/49756 to outside:77.83.36.19/443 duration 0:00:41 bytes 4263455 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:24:22 fw-edge %ASA-6-302014: Teardown TCP connection 642888 for inside:10.10.4.22/59246 to outside:77.83.36.19/443 duration 0:00:23 bytes 5069625 TCP FINs",
+  "line": "Mar 12 12:24:22 fw-edge %ASA-6-302014: Teardown TCP connection 115016 for inside:10.10.4.22/50275 to outside:77.83.36.19/443 duration 0:00:15 bytes 4850032 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:24:33 fw-edge %ASA-6-302014: Teardown TCP connection 341986 for inside:10.10.4.22/58440 to outside:77.83.36.19/443 duration 0:00:37 bytes 4036686 TCP FINs",
+  "line": "Mar 12 12:24:33 fw-edge %ASA-6-302014: Teardown TCP connection 251730 for inside:10.10.4.22/53750 to outside:77.83.36.19/443 duration 0:00:24 bytes 3696874 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:24:44 fw-edge %ASA-6-302014: Teardown TCP connection 820298 for inside:10.10.4.22/46920 to outside:77.83.36.19/443 duration 0:00:36 bytes 3610156 TCP FINs",
+  "line": "Mar 12 12:24:44 fw-edge %ASA-6-302014: Teardown TCP connection 315828 for inside:10.10.4.22/53261 to outside:77.83.36.19/443 duration 0:00:41 bytes 3022085 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:24:55 fw-edge %ASA-6-302014: Teardown TCP connection 941888 for inside:10.10.4.22/58456 to outside:77.83.36.19/443 duration 0:00:42 bytes 4136837 TCP FINs",
+  "line": "Mar 12 12:24:55 fw-edge %ASA-6-302014: Teardown TCP connection 725860 for inside:10.10.4.22/43131 to outside:77.83.36.19/443 duration 0:00:41 bytes 4727702 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:25:06 fw-edge %ASA-6-302014: Teardown TCP connection 629766 for inside:10.10.4.22/43954 to outside:77.83.36.19/443 duration 0:00:18 bytes 4839535 TCP FINs",
+  "line": "Mar 12 12:25:06 fw-edge %ASA-6-302014: Teardown TCP connection 440874 for inside:10.10.4.22/44404 to outside:77.83.36.19/443 duration 0:00:41 bytes 3484467 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:25:17 fw-edge %ASA-6-302014: Teardown TCP connection 461935 for inside:10.10.4.22/49054 to outside:77.83.36.19/443 duration 0:00:39 bytes 3878580 TCP FINs",
+  "line": "Mar 12 12:25:17 fw-edge %ASA-6-302014: Teardown TCP connection 999413 for inside:10.10.4.22/51789 to outside:77.83.36.19/443 duration 0:00:10 bytes 4218268 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:25:28 fw-edge %ASA-6-302014: Teardown TCP connection 875535 for inside:10.10.4.22/47628 to outside:77.83.36.19/443 duration 0:00:25 bytes 4807536 TCP FINs",
+  "line": "Mar 12 12:25:28 fw-edge %ASA-6-302014: Teardown TCP connection 803486 for inside:10.10.4.22/55060 to outside:77.83.36.19/443 duration 0:00:31 bytes 3209604 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:25:39 fw-edge %ASA-6-302014: Teardown TCP connection 896589 for inside:10.10.4.22/42976 to outside:77.83.36.19/443 duration 0:00:27 bytes 4323161 TCP FINs",
+  "line": "Mar 12 12:25:39 fw-edge %ASA-6-302014: Teardown TCP connection 721871 for inside:10.10.4.22/43807 to outside:77.83.36.19/443 duration 0:00:12 bytes 5345210 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:25:50 fw-edge %ASA-6-302014: Teardown TCP connection 608416 for inside:10.10.4.22/48587 to outside:77.83.36.19/443 duration 0:00:08 bytes 5139997 TCP FINs",
+  "line": "Mar 12 12:25:50 fw-edge %ASA-6-302014: Teardown TCP connection 463753 for inside:10.10.4.22/47515 to outside:77.83.36.19/443 duration 0:00:12 bytes 3670654 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:26:01 fw-edge %ASA-6-302014: Teardown TCP connection 590361 for inside:10.10.4.22/46322 to outside:77.83.36.19/443 duration 0:00:28 bytes 3255897 TCP FINs",
+  "line": "Mar 12 12:26:01 fw-edge %ASA-6-302014: Teardown TCP connection 339495 for inside:10.10.4.22/53937 to outside:77.83.36.19/443 duration 0:00:10 bytes 3423801 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:26:12 fw-edge %ASA-6-302014: Teardown TCP connection 878713 for inside:10.10.4.22/58787 to outside:77.83.36.19/443 duration 0:00:27 bytes 4551103 TCP FINs",
+  "line": "Mar 12 12:26:12 fw-edge %ASA-6-302014: Teardown TCP connection 526080 for inside:10.10.4.22/44932 to outside:77.83.36.19/443 duration 0:00:41 bytes 2692298 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:26:23 fw-edge %ASA-6-302014: Teardown TCP connection 499180 for inside:10.10.4.22/59116 to outside:77.83.36.19/443 duration 0:00:16 bytes 4117800 TCP FINs",
+  "line": "Mar 12 12:26:23 fw-edge %ASA-6-302014: Teardown TCP connection 209346 for inside:10.10.4.22/43338 to outside:77.83.36.19/443 duration 0:00:29 bytes 3829188 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:26:34 fw-edge %ASA-6-302014: Teardown TCP connection 938768 for inside:10.10.4.22/49278 to outside:77.83.36.19/443 duration 0:00:31 bytes 4158074 TCP FINs",
+  "line": "Mar 12 12:26:34 fw-edge %ASA-6-302014: Teardown TCP connection 473017 for inside:10.10.4.22/53335 to outside:77.83.36.19/443 duration 0:00:17 bytes 2994342 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:26:45 fw-edge %ASA-6-302014: Teardown TCP connection 766542 for inside:10.10.4.22/51668 to outside:77.83.36.19/443 duration 0:00:37 bytes 3304655 TCP FINs",
+  "line": "Mar 12 12:26:45 fw-edge %ASA-6-302014: Teardown TCP connection 229511 for inside:10.10.4.22/52107 to outside:77.83.36.19/443 duration 0:00:35 bytes 5074687 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:26:56 fw-edge %ASA-6-302014: Teardown TCP connection 511114 for inside:10.10.4.22/46062 to outside:77.83.36.19/443 duration 0:00:16 bytes 3843012 TCP FINs",
+  "line": "Mar 12 12:26:56 fw-edge %ASA-6-302014: Teardown TCP connection 243194 for inside:10.10.4.22/50165 to outside:77.83.36.19/443 duration 0:00:44 bytes 3574329 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:27:07 fw-edge %ASA-6-302014: Teardown TCP connection 623554 for inside:10.10.4.22/57599 to outside:77.83.36.19/443 duration 0:00:13 bytes 3864158 TCP FINs",
+  "line": "Mar 12 12:27:07 fw-edge %ASA-6-302014: Teardown TCP connection 515474 for inside:10.10.4.22/46219 to outside:77.83.36.19/443 duration 0:00:27 bytes 2619813 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:27:18 fw-edge %ASA-6-302014: Teardown TCP connection 437879 for inside:10.10.4.22/48116 to outside:77.83.36.19/443 duration 0:00:39 bytes 5002172 TCP FINs",
+  "line": "Mar 12 12:27:18 fw-edge %ASA-6-302014: Teardown TCP connection 930149 for inside:10.10.4.22/55314 to outside:77.83.36.19/443 duration 0:00:26 bytes 5284881 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:27:29 fw-edge %ASA-6-302014: Teardown TCP connection 946630 for inside:10.10.4.22/51277 to outside:77.83.36.19/443 duration 0:00:37 bytes 4832000 TCP FINs",
+  "line": "Mar 12 12:27:29 fw-edge %ASA-6-302014: Teardown TCP connection 509948 for inside:10.10.4.22/40010 to outside:77.83.36.19/443 duration 0:00:30 bytes 3983161 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:27:40 fw-edge %ASA-6-302014: Teardown TCP connection 586262 for inside:10.10.4.22/56474 to outside:77.83.36.19/443 duration 0:00:25 bytes 4710523 TCP FINs",
+  "line": "Mar 12 12:27:40 fw-edge %ASA-6-302014: Teardown TCP connection 868227 for inside:10.10.4.22/58831 to outside:77.83.36.19/443 duration 0:00:24 bytes 3301434 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:27:51 fw-edge %ASA-6-302014: Teardown TCP connection 319556 for inside:10.10.4.22/48685 to outside:77.83.36.19/443 duration 0:00:12 bytes 4772374 TCP FINs",
+  "line": "Mar 12 12:27:51 fw-edge %ASA-6-302014: Teardown TCP connection 573731 for inside:10.10.4.22/52682 to outside:77.83.36.19/443 duration 0:00:39 bytes 4542454 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:28:02 fw-edge %ASA-6-302014: Teardown TCP connection 488725 for inside:10.10.4.22/46944 to outside:77.83.36.19/443 duration 0:00:10 bytes 4516058 TCP FINs",
+  "line": "Mar 12 12:28:02 fw-edge %ASA-6-302014: Teardown TCP connection 951691 for inside:10.10.4.22/50017 to outside:77.83.36.19/443 duration 0:00:32 bytes 4874383 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:28:13 fw-edge %ASA-6-302014: Teardown TCP connection 276742 for inside:10.10.4.22/47980 to outside:77.83.36.19/443 duration 0:00:23 bytes 3253804 TCP FINs",
+  "line": "Mar 12 12:28:13 fw-edge %ASA-6-302014: Teardown TCP connection 496245 for inside:10.10.4.22/54416 to outside:77.83.36.19/443 duration 0:00:26 bytes 4939991 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:28:24 fw-edge %ASA-6-302014: Teardown TCP connection 676103 for inside:10.10.4.22/47179 to outside:77.83.36.19/443 duration 0:00:21 bytes 5234863 TCP FINs",
+  "line": "Mar 12 12:28:24 fw-edge %ASA-6-302014: Teardown TCP connection 261650 for inside:10.10.4.22/44676 to outside:77.83.36.19/443 duration 0:00:26 bytes 4912088 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:28:35 fw-edge %ASA-6-302014: Teardown TCP connection 158169 for inside:10.10.4.22/51732 to outside:77.83.36.19/443 duration 0:00:33 bytes 5383353 TCP FINs",
+  "line": "Mar 12 12:28:35 fw-edge %ASA-6-302014: Teardown TCP connection 372873 for inside:10.10.4.22/49270 to outside:77.83.36.19/443 duration 0:00:26 bytes 3786345 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:28:46 fw-edge %ASA-6-302014: Teardown TCP connection 724178 for inside:10.10.4.22/40113 to outside:77.83.36.19/443 duration 0:00:12 bytes 4910596 TCP FINs",
+  "line": "Mar 12 12:28:46 fw-edge %ASA-6-302014: Teardown TCP connection 176387 for inside:10.10.4.22/40188 to outside:77.83.36.19/443 duration 0:00:26 bytes 5262457 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:28:57 fw-edge %ASA-6-302014: Teardown TCP connection 697369 for inside:10.10.4.22/55257 to outside:77.83.36.19/443 duration 0:00:38 bytes 2891291 TCP FINs",
+  "line": "Mar 12 12:28:57 fw-edge %ASA-6-302014: Teardown TCP connection 763572 for inside:10.10.4.22/45883 to outside:77.83.36.19/443 duration 0:00:21 bytes 3681327 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:29:08 fw-edge %ASA-6-302014: Teardown TCP connection 465105 for inside:10.10.4.22/50969 to outside:77.83.36.19/443 duration 0:00:22 bytes 3123819 TCP FINs",
+  "line": "Mar 12 12:29:08 fw-edge %ASA-6-302014: Teardown TCP connection 135593 for inside:10.10.4.22/46782 to outside:77.83.36.19/443 duration 0:00:17 bytes 2923455 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:29:19 fw-edge %ASA-6-302014: Teardown TCP connection 512789 for inside:10.10.4.22/54350 to outside:77.83.36.19/443 duration 0:00:28 bytes 3754504 TCP FINs",
+  "line": "Mar 12 12:29:19 fw-edge %ASA-6-302014: Teardown TCP connection 858379 for inside:10.10.4.22/56726 to outside:77.83.36.19/443 duration 0:00:44 bytes 3586741 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:29:30 fw-edge %ASA-6-302014: Teardown TCP connection 723253 for inside:10.10.4.22/44559 to outside:77.83.36.19/443 duration 0:00:09 bytes 3472847 TCP FINs",
+  "line": "Mar 12 12:29:30 fw-edge %ASA-6-302014: Teardown TCP connection 496128 for inside:10.10.4.22/52227 to outside:77.83.36.19/443 duration 0:00:39 bytes 5192594 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:29:41 fw-edge %ASA-6-302014: Teardown TCP connection 244987 for inside:10.10.4.22/51432 to outside:77.83.36.19/443 duration 0:00:11 bytes 4036715 TCP FINs",
+  "line": "Mar 12 12:29:41 fw-edge %ASA-6-302014: Teardown TCP connection 874923 for inside:10.10.4.22/53210 to outside:77.83.36.19/443 duration 0:00:20 bytes 5293095 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:29:52 fw-edge %ASA-6-302014: Teardown TCP connection 366386 for inside:10.10.4.22/47506 to outside:77.83.36.19/443 duration 0:00:43 bytes 2807578 TCP FINs",
+  "line": "Mar 12 12:29:52 fw-edge %ASA-6-302014: Teardown TCP connection 384905 for inside:10.10.4.22/55179 to outside:77.83.36.19/443 duration 0:00:36 bytes 4653472 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:30:03 fw-edge %ASA-6-302014: Teardown TCP connection 871573 for inside:10.10.4.22/57501 to outside:77.83.36.19/443 duration 0:00:14 bytes 3186424 TCP FINs",
+  "line": "Mar 12 12:30:03 fw-edge %ASA-6-302014: Teardown TCP connection 194349 for inside:10.10.4.22/55441 to outside:77.83.36.19/443 duration 0:00:11 bytes 4567077 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:30:14 fw-edge %ASA-6-302014: Teardown TCP connection 466130 for inside:10.10.4.22/40605 to outside:77.83.36.19/443 duration 0:00:08 bytes 3980440 TCP FINs",
+  "line": "Mar 12 12:30:14 fw-edge %ASA-6-302014: Teardown TCP connection 142341 for inside:10.10.4.22/48851 to outside:77.83.36.19/443 duration 0:00:22 bytes 2707638 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:30:25 fw-edge %ASA-6-302014: Teardown TCP connection 503472 for inside:10.10.4.22/49793 to outside:77.83.36.19/443 duration 0:00:13 bytes 3709882 TCP FINs",
+  "line": "Mar 12 12:30:25 fw-edge %ASA-6-302014: Teardown TCP connection 268216 for inside:10.10.4.22/56337 to outside:77.83.36.19/443 duration 0:00:21 bytes 3417058 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:30:36 fw-edge %ASA-6-302014: Teardown TCP connection 990953 for inside:10.10.4.22/44744 to outside:77.83.36.19/443 duration 0:00:24 bytes 3526503 TCP FINs",
+  "line": "Mar 12 12:30:36 fw-edge %ASA-6-302014: Teardown TCP connection 499554 for inside:10.10.4.22/49556 to outside:77.83.36.19/443 duration 0:00:11 bytes 4906695 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:30:47 fw-edge %ASA-6-302014: Teardown TCP connection 173982 for inside:10.10.4.22/42303 to outside:77.83.36.19/443 duration 0:00:24 bytes 4541732 TCP FINs",
+  "line": "Mar 12 12:30:47 fw-edge %ASA-6-302014: Teardown TCP connection 759224 for inside:10.10.4.22/41157 to outside:77.83.36.19/443 duration 0:00:28 bytes 4871470 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:30:58 fw-edge %ASA-6-302014: Teardown TCP connection 368178 for inside:10.10.4.22/46619 to outside:77.83.36.19/443 duration 0:00:28 bytes 2821587 TCP FINs",
+  "line": "Mar 12 12:30:58 fw-edge %ASA-6-302014: Teardown TCP connection 708902 for inside:10.10.4.22/40655 to outside:77.83.36.19/443 duration 0:00:22 bytes 4280668 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:31:09 fw-edge %ASA-6-302014: Teardown TCP connection 156514 for inside:10.10.4.22/40138 to outside:77.83.36.19/443 duration 0:00:35 bytes 3765262 TCP FINs",
+  "line": "Mar 12 12:31:09 fw-edge %ASA-6-302014: Teardown TCP connection 559478 for inside:10.10.4.22/44267 to outside:77.83.36.19/443 duration 0:00:23 bytes 3305844 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:31:20 fw-edge %ASA-6-302014: Teardown TCP connection 457821 for inside:10.10.4.22/56417 to outside:77.83.36.19/443 duration 0:00:14 bytes 4239601 TCP FINs",
+  "line": "Mar 12 12:31:20 fw-edge %ASA-6-302014: Teardown TCP connection 868645 for inside:10.10.4.22/55109 to outside:77.83.36.19/443 duration 0:00:40 bytes 3958148 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:31:31 fw-edge %ASA-6-302014: Teardown TCP connection 100938 for inside:10.10.4.22/56160 to outside:77.83.36.19/443 duration 0:00:44 bytes 3002034 TCP FINs",
+  "line": "Mar 12 12:31:31 fw-edge %ASA-6-302014: Teardown TCP connection 595115 for inside:10.10.4.22/56416 to outside:77.83.36.19/443 duration 0:00:21 bytes 2607033 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:31:42 fw-edge %ASA-6-302014: Teardown TCP connection 151567 for inside:10.10.4.22/40942 to outside:77.83.36.19/443 duration 0:00:22 bytes 2977883 TCP FINs",
+  "line": "Mar 12 12:31:42 fw-edge %ASA-6-302014: Teardown TCP connection 923259 for inside:10.10.4.22/50167 to outside:77.83.36.19/443 duration 0:00:10 bytes 4600307 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:31:53 fw-edge %ASA-6-302014: Teardown TCP connection 182926 for inside:10.10.4.22/48145 to outside:77.83.36.19/443 duration 0:00:43 bytes 5104155 TCP FINs",
+  "line": "Mar 12 12:31:53 fw-edge %ASA-6-302014: Teardown TCP connection 911239 for inside:10.10.4.22/52804 to outside:77.83.36.19/443 duration 0:00:09 bytes 4009367 TCP FINs",
   "delay": 90
  },
  {
   "phase": "Exfiltration",
   "parser": "firewall",
-  "line": "Mar 12 12:32:04 fw-edge %ASA-6-302014: Teardown TCP connection 735352 for inside:10.10.4.22/56129 to outside:77.83.36.19/443 duration 0:00:33 bytes 4557393 TCP FINs",
+  "line": "Mar 12 12:32:04 fw-edge %ASA-6-302014: Teardown TCP connection 864330 for inside:10.10.4.22/54275 to outside:77.83.36.19/443 duration 0:00:13 bytes 4768670 TCP FINs",
   "delay": 90
  },
  {

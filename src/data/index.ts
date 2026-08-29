@@ -15,6 +15,11 @@ export interface Dataset {
   text: string;
 }
 
+/** syslog lines carry no year. Everything bundled here is from March 2025, so
+ *  say so - otherwise the ssh and firewall sets drift a year away from the web
+ *  and Windows ones and nothing correlates. */
+export const SAMPLE_YEAR = 2025;
+
 /** All five ship enabled; the sidebar can drop any of them and the whole
  *  pipeline recomputes. Timestamps are 12 Mar 2025 UTC across the board. */
 export const DATASETS: Dataset[] = [

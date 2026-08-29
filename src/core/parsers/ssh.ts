@@ -64,6 +64,15 @@ const PATTERNS: {
     },
   },
   {
+    re: /^pam_unix\(sshd:session\): session (opened|closed) for user (\S+)/,
+    apply: (m, e) => {
+      e.action = m[1] === 'opened' ? 'session_open' : 'session_close';
+      e.status = 'info';
+      e.user = m[2];
+      e.msg = 'session ' + m[1];
+    },
+  },
+  {
     re: /^Connection closed by (?:authenticating user (\S+) )?(\S+) port (\d+)/,
     apply: (m, e) => {
       e.action = 'disconnect';
