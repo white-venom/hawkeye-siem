@@ -84,9 +84,15 @@ function uniq<T>(xs: T[]): T[] {
 
 function commonVars(evidence: LogEvent[]): Record<string, string | number> {
   const span = evidence[evidence.length - 1].ts - evidence[0].ts;
+  // {user} is the principal on the most recent contributing event - for a rule
+  // grouped by host or srcIp that is the only place the name comes from
+  const lastUser = [...evidence].reverse().find((e) => e.user)?.user;
+  const lastHost = [...evidence].reverse().find((e) => e.host)?.host;
   return {
     count: evidence.length,
     span: humanSpan(span),
+    user: lastUser ?? 'an unknown account',
+    host: lastHost ?? 'an unknown host',
     users: uniq(evidence.map((e) => e.user).filter(Boolean) as string[]).slice(0, 6).join(', '),
     ports: uniq(evidence.map((e) => e.port).filter((p): p is number => p !== undefined))
       .slice(0, 12)

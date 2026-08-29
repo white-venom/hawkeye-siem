@@ -122,6 +122,14 @@ describe('replay incident', () => {
     }
   });
 
+  it('leaves no unfilled placeholders in any narrative', () => {
+    const all = detect(RULES, [...loadSamples().events, ...loadReplay()]);
+    expect(all.length).toBeGreaterThan(10);
+    for (const a of all) {
+      expect(a.narrative, a.ruleId).not.toMatch(/\{\w+\}/);
+    }
+  });
+
   it('produces a critical alert for the exfil, with the volume in the headline', () => {
     const alerts = detect(RULES, loadReplay());
     const exfil = alerts.find((a) => a.ruleId === 'data-exfil-volume')!;

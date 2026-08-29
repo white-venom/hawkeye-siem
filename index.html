@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HawkEye — mini SIEM</title>
+    <meta
+      name="description"
+      content="A browser-only SIEM: parses log data, runs detection rules, correlates events into alerts. No backend."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230891a5'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23fff'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#22b8cf" />
+              <stop offset="1" stop-color="#065f6e" />
+            </linearGradient>
+          </defs>
+          <path d="M4 20 Q20 4 36 20 Q20 36 4 20 Z" fill="none" stroke="url(#g)" stroke-width="2.5" />
+          <circle cx="20" cy="20" r="5.5" fill="url(#g)" />
+        </svg>
+        <div class="brand-text">
+          <h1>HawkEye</h1>
+          <p>Mini SIEM · parses, detects, correlates — entirely in this tab</p>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <div class="window" id="window-label" aria-live="polite"></div>
+        <div class="phase-rail" id="phase-rail" hidden></div>
+        <button class="btn btn-primary" id="replay-btn" type="button">
+          <span class="dot"></span><span id="replay-label">Replay attack</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- The pipeline strip is the thesis of the whole thing: text in, alerts out.
+         Counts are live and move while the replay streams. -->
+    <section class="pipeline" aria-label="Pipeline throughput">
+      <div class="stage" data-stage="lines">
+        <span class="stage-label">Log lines read</span>
+        <span class="stage-value" id="stat-lines">0</span>
+        <span class="stage-note" id="stat-lines-note">&nbsp;</span>
+      </div>
+      <div class="stage" data-stage="events">
+        <span class="stage-label">Normalised events</span>
+        <span class="stage-value" id="stat-events">0</span>
+        <span class="stage-note" id="stat-events-note">&nbsp;</span>
+      </div>
+      <div class="stage" data-stage="rules">
+        <span class="stage-label">Rules armed</span>
+        <span class="stage-value" id="stat-rules">0</span>
+        <span class="stage-note" id="stat-rules-note">&nbsp;</span>
+      </div>
+      <div class="stage stage-out" data-stage="alerts">
+        <span class="stage-label">Alerts raised</span>
+        <span class="stage-value" id="stat-alerts">0</span>
+        <span class="stage-note" id="stat-alerts-note">&nbsp;</span>
+      </div>
+    </section>
+
+    <div class="filters" role="group" aria-label="Filters">
+      <span class="filters-label">Filter</span>
+      <div class="chipset" id="filter-severity"></div>
+      <span class="filters-sep" aria-hidden="true"></span>
+      <div class="chipset" id="filter-source"></div>
+      <span class="filters-sep" aria-hidden="true"></span>
+      <label class="field">
+        <span class="sr-only">Search events and alerts</span>
+        <input id="filter-q" type="search" placeholder="ip, user, path, rule…" autocomplete="off" />
+      </label>
+      <button class="btn btn-ghost" id="filter-reset" type="button">Clear</button>
+    </div>
+
+    <main class="grid">
+      <aside class="rail">
+        <section class="card">
+          <h2 class="card-title">Sources</h2>
+          <div id="dataset-list" class="list"></div>
+          <details class="ingest">
+            <summary>Add your own log</summary>
+            <p class="hint">Paste or drop a file. The parser is guessed from the content; override it if the guess is wrong.</p>
+            <select id="ingest-parser" aria-label="Parser"></select>
+            <textarea id="ingest-text" rows="5" spellcheck="false" placeholder="Paste log lines here…"></textarea>
+            <div class="ingest-actions">
+              <button class="btn btn-primary" id="ingest-add" type="button">Parse and ingest</button>
+              <span class="hint" id="ingest-status"></span>
+            </div>
+          </details>
+        </section>
+
+        <section class="card">
+          <h2 class="card-title">
+            Detection rules
+            <span class="count" id="rule-count"></span>
+          </h2>
+          <p class="hint">Each rule is a filter expression plus a window. Toggle one off and everything downstream recomputes.</p>
+          <div id="rule-list" class="list rules"></div>
+        </section>
+      </aside>
+
+      <section class="center">
+        <article class="card">
+          <header class="card-head">
+            <h2 class="card-title">Events over time</h2>
+            <div class="card-tools">
+              <div class="legend" id="timeline-legend"></div>
+              <button class="btn btn-ghost btn-sm" id="timeline-table-btn" type="button" aria-pressed="false">Table</button>
+            </div>
+          </header>
+          <div class="chart-wrap">
+            <canvas id="timeline" height="190"></canvas>
+            <div class="tooltip" id="timeline-tip" hidden></div>
+          </div>
+          <div class="table-view" id="timeline-table" hidden></div>
+        </article>
+
+        <div class="two-up">
+          <article class="card">
+            <header class="card-head">
+              <h2 class="card-title">Top talkers</h2>
+              <span class="hint" id="talkers-note"></span>
+            </header>
+            <div class="chart-wrap">
+              <canvas id="talkers" height="176"></canvas>
+              <div class="tooltip" id="talkers-tip" hidden></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <header class="card-head">
+              <h2 class="card-title">Alerts by severity</h2>
+            </header>
+            <div id="severity-bd" class="severity"></div>
+          </article>
+        </div>
+
+        <article class="card stream">
+          <header class="card-head">
+            <h2 class="card-title">Event stream</h2>
+            <span class="hint" id="stream-note"></span>
+          </header>
+          <div class="table-scroll">
+            <table class="events">
+              <thead>
+                <tr>
+                  <th scope="col">Time</th>
+                  <th scope="col">Source</th>
+                  <th scope="col">Source IP</th>
+                  <th scope="col">User</th>
+                  <th scope="col">Action</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Detail</th>
+                </tr>
+              </thead>
+              <tbody id="event-rows"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <aside class="feed">
+        <header class="card-head feed-head">
+          <h2 class="card-title">Alerts <span class="count" id="alert-count"></span></h2>
+          <select id="alert-sort" aria-label="Sort alerts">
+            <option value="severity">Severity</option>
+            <option value="recent">Most recent</option>
+          </select>
+        </header>
+        <div id="alert-list" class="alert-list"></div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <span>Synthetic data. Timestamps are 12 Mar 2025 UTC.</span>
+      <a href="https://github.com/white-venom/hawkeye-siem">Source on GitHub</a>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
