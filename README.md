@@ -186,6 +186,11 @@ Singapore" looks like teleportation every morning.
 
 ## Decisions I made without asking
 
+- **Storage: In-Memory Indexed Ring Buffer & SQLite.**
+  Enterprise SIEMs typically lean on Elasticsearch or OpenSearch for multi-node clustering, but Elasticsearch demands heavy JVM memory (4GB+ minimum) and high operational overhead. For HawkEye:
+  1. An in-browser indexed event ring buffer allows sub-millisecond timeline slicing and zero-latency triage with zero backend install.
+  2. A lightweight standalone collector daemon (`scripts/collector_sqlite.py`) provides SQLite with Write-Ahead Logging (WAL) enabled, ingesting UDP syslog (RFC 3164/5424) and JSON logs into indexed SQLite tables with threshold correlation alerting.
+
 - **Light theme.** The brief originally said dark; a white-and-cyan console was picked
   instead, so that's what's here. There's no dark mode — the tokens are all in one block at the
   top of `styles.css` if you want one.
